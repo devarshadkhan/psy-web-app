@@ -1,0 +1,341 @@
+.backHeader {
+  padding: 23px 160px;
+}
+
+.backHeader {
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+  text-decoration: none;
+  color: #4d5461;
+}
+
+.paymentWrapper {
+  padding: 33px 160px;
+}
+
+.pageHeading {
+  font-size: 48px;
+  font-family: "Nexa-Bold";
+}
+
+.walletAmount {
+  font-family: "Nexa-Bold";
+  margin-right: 17px;
+}
+
+.checkName {
+  font-family: "Nexa-Bold";
+}
+
+.line {
+  background-color: #e6e8ec;
+}
+
+.leftContainer {
+  padding: 0px 80px 0px 0px;
+}
+
+.paymentOption > p {
+  font-size: 24px;
+  font-family: "Nexa-Bold";
+}
+
+.paymentOption > div > span {
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+  color: #777e90;
+  margin-right: 24px;
+}
+
+.paymentOption > div > button {
+  background-color: #353945;
+  color: white;
+  border-radius: 100px;
+  font-family: "Nexa-Bold";
+  font-size: 14px;
+  padding: 6px 12px;
+  border: none;
+  outline: none;
+}
+
+.btnContainer {
+  width: 44%;
+}
+
+.creditCard > p {
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+}
+
+.creditCard > div > span > img {
+  height: 16px;
+}
+
+.selectBox {
+  width: 90%;
+  background-color: #fcfcfc;
+  border: 1px solid #e6e8ec;
+  border-radius: 12px;
+  box-shadow: none !important;
+  padding: 12px;
+  font-family: "Nexa-Bold";
+  font-size: 14px;
+  margin: 0 !important;
+}
+
+.warning {
+    font-family: "Nexa-Bold"    ;
+}
+
+.diffCard {
+  border-radius: 90px;
+  border: 2px solid #e6e8ec;
+  padding: 12px 24px;
+  font-family: "Nexa-Bold";
+  font-size: 16px;
+  background-color: white;
+}
+
+.payBtn {
+  background: #3b71fe;
+  font-size: 16px;
+  color: white;
+  border-radius: 90px;
+  padding: 12px 0px;
+  margin-top: 3rem;
+  font-family: "Nexa-Bold";
+  border: none;
+  outline: none;
+  width: 85%;
+}
+
+.paymentCard {
+  padding: 72px 96px;
+  border-radius: 7px;
+  background-color: #fcfcfd;
+  position: relative;
+  width: 544px;
+}
+
+.paymentCard h2 {
+  font-family: "Nexa-Bold";
+  font-size: 48px;
+  text-align: center;
+}
+
+.formContainer {
+  margin-top: 10px;
+}
+
+.formLabel {
+  color: #b1b5c3;
+  font-family: "Nexa-Bold";
+  width: 100%;
+  margin: 10px 0px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Nexa-Bold";
+}
+
+.formInp {
+  border: 2px solid #e6e8ec !important;
+  border-radius: 12px;
+}
+
+.formInp:focus {
+  box-shadow: none !important;
+}
+
+.checkbox {
+  height: 24px;
+  width: 24px;
+  background-image: url("/images/addCardCheck.png") !important;
+  background-size: 60%;
+}
+
+.checkbox:focus {
+  box-shadow: none;
+}
+
+.checkboxField {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 15px 0px 32px 0px;
+}
+
+.checkboxField label {
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+  position: relative;
+  top: 4px;
+}
+
+.submitBtn {
+  background: #3b71fe;
+  border-radius: 90px;
+  font-family: "Nexa-Bold";
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 35%;
+  padding: 16px 0px;
+}
+
+.crossBtn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background-color: #fcfcfd;
+  border-radius: 50%;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777e90;
+  cursor: pointer;
+}
+
+.twoFields > div {
+  width: 50%;
+}
+
+.inputField,
+.inputNameField {
+  border: 2px solid #e6e8ec;
+  border-radius: 10px;
+  padding: 12px 16px;
+}
+
+.paymentForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.expirationCvc {
+  display: flex;
+  gap: 1rem;
+}
+
+.inputNameField {
+  /* padding: 7px 13px; */
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+  background-color: transparent;
+}
+
+.normalField::placeholder {
+  color: rgba(0, 0, 0, 0.464);
+}
+
+.disabledField::placeholder {
+  color: rgba(91, 92, 92, 0.265);
+}
+
+.payBtn {
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+  color: white;
+  width: 38%;
+}
+
+.valid {
+    border-color: green !important;
+}
+
+.invalid {
+    border-color: red !important;
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1025px) {
+  .btnContainer {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 911px) {
+  .backHeader {
+    padding: 23px 30px;
+  }
+
+  .paymentWrapper {
+    padding: 33px 30px;
+  }
+
+  .btnContainer {
+    width: 100%;
+    margin: 30px 0px;
+  }
+
+  .diffCard {
+    width: 100%;
+  }
+
+  .selectBox {
+    width: 100%;
+  }
+
+  .payBtn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 912px) and (min-width: 230px) {
+  .backHeader {
+    padding: 23px 30px;
+  }
+
+  .paymentWrapper {
+    flex-direction: column;
+    padding: 33px 30px;
+    gap: 2rem;
+  }
+
+  .btnContainer {
+    width: 100%;
+    margin: 30px 0px;
+  }
+
+  .diffCard {
+    width: 100%;
+  }
+
+  .selectBox {
+    width: 100%;
+  }
+
+  .payBtn {
+    width: 100%;
+  }
+
+  .leftContainer {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 540px) and (min-width: 230px) {
+  .leftContainer > h1 {
+    font-size: 38px;
+  }
+
+  .paymentOption > p {
+    font-size: 20px;
+  }
+
+  .paymentCard {
+    padding: 20px 30px;
+    width: auto;
+  }
+
+  .paymentCard h2 {
+    font-size: 30px;
+  }
+
+  .submitBtn {
+    width: 100%;
+  }
+}

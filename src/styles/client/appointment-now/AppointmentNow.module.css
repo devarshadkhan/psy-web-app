@@ -1,0 +1,220 @@
+.appointmentsMainContainer {
+  position: relative;
+}
+
+.appointmentHeader {
+  padding: 30px 70px 10px 160px;
+}
+
+.bookTimeZone {
+  color: white;
+  font-family: "Nexa-Bold";
+}
+
+.appointmentHeader > span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #4d5461;
+  font-family: "Nexa-Bold";
+  text-decoration: none;
+}
+
+.backgroundPadding {
+  padding: 30px 90px;
+}
+
+.nowBG {
+  background-image: url("/images/appointmentNow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  border-radius: 24px;
+  position: relative;
+}
+
+.BGContent {
+  padding: 60px 0px 40px 80px;
+}
+
+.BGContent > h1 {
+  font-size: 96px;
+  color: #fff;
+  font-family: "Nexa-Bold";
+  /* max-width: 55%; */
+}
+
+.BGContent > p {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Nexa-Bold";
+  /* max-width: 25%; */
+}
+
+.bookAppointmentConatiner {
+  padding: 30px 70px 10px 160px;
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+}
+
+.BAContainer {
+  padding: 0px 60px;
+  position: absolute;
+  bottom: -60px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 2256px) and (max-width: 3840px) {
+  .nowBG {
+    height: calc(100vh - 250px);
+  }
+
+  .BGContent > h1 {
+    /* max-width: 50%; */
+  }
+
+  .BGContent > p {
+    /* max-width: 40%; */
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2255px) {
+  .BGContent > h1 {
+    /* max-width: 70%; */
+  }
+
+  .BGContent > p {
+    /* max-width: 60%; */
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+  .BGContent > h1 {
+    /* max-width: 50%; */
+  }
+
+  .BGContent > p {
+    /* max-width: 40%; */
+  }
+
+  .nowBG {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .appointmentHeader {
+    padding: 30px 30px 10px 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 540px) {
+  .backgroundPadding {
+    padding: 30px;
+  }
+
+  .BGContent {
+    padding: 50px 0 40px 80px;
+  }
+
+  .BGContent > h1,
+  .BGContent > p {
+    /* max-width: 60%; */
+  }
+
+  .BAContainer {
+    position: relative;
+    padding: 0 30px;
+    bottom: 0;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1599px) {
+  .BAContainer {
+    bottom: -25px;
+  }
+  .backgroundPadding {
+    /* padding: 30px; */
+  }
+}
+
+@media screen and (max-width: 912px) and (min-width: 540px) {
+  .nowBG {
+    height: 50vh;
+  }
+
+  .BGContent > h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 717px) {
+  .BGContent {
+    padding: 40px;
+  }
+
+  .BGContent > h1 {
+    font-size: 56px;
+  }
+
+  .BGContent > p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 540px) and (min-width: 250px) {
+  .nowBG {
+    height: 30vh;
+  }
+
+  .BGContent > h1 {
+    font-size: 46px;
+  }
+
+  .BGContent > p {
+    font-size: 18px;
+  }
+
+  .backgroundPadding {
+    padding: 20px;
+  }
+
+  .BGContent {
+    padding: 50px 0 40px 50px;
+  }
+
+  .BAContainer {
+    bottom: auto;
+    padding: 0 20px;
+  }
+
+  .BGContent {
+    padding: 40px 20px;
+  }
+
+  .BGContent > h1 {
+    font-size: 34px;
+    max-width: 80%;
+  }
+
+  .BGContent > p {
+    font-size: 14px;
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 3200px) and (max-width: 3840px) {
+  .BGContent {
+    padding: 300px 150px;
+  }
+
+  .BGContent > h1 {
+    max-width: 60%;
+  }
+
+  .BGContent > p {
+    max-width: 40%;
+  }
+}

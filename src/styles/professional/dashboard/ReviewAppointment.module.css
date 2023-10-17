@@ -1,0 +1,44 @@
+.bodyContainer {
+  height: calc(100vh - 90px);
+  background: linear-gradient(to top, #fff 0%, #fff 60%, #1c2634 40%);
+  padding-left: 63px;
+}
+.reviewContainer {
+  width: 100%;
+  padding: 0 6%;
+}
+
+.reviewDetailsContainer {
+  font-weight: 700;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  font-family: "Nexa-Bold";
+}
+.audioButton {
+  width: 55px;
+  border: 2px solid #373737;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  font-weight: 700;
+  font-family: "Poppins-Black";
+  color: #2a2627;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1024px) {
+  .bodyContainer {
+    padding: 0;
+  }
+  .reviewDetailsContainer{
+    font-size: 14px;
+  }
+  .audioButton {
+    font-size: 12px;
+  }
+}

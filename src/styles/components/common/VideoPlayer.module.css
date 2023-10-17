@@ -1,0 +1,30 @@
+.payerButton > svg {
+  font-size: 30px;
+  color: #777e90;
+}
+
+.payerButton {
+  width: 80px;
+  height: 80px;
+  background: #fcfcfd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.video video {
+  border-radius: 16px;
+  overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+  .payerButton {
+    width: 50px;
+    height: 50px;
+    top: 40%;
+    left: 45%;
+  }
+}

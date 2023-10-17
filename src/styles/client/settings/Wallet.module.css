@@ -1,0 +1,211 @@
+/* main container */
+.cntr_main {
+  padding: 0 160px;
+}
+/* main container */
+.wrapper_security {
+  padding: 6rem 0 2rem;
+}
+.wrapper_security .wallet {
+  padding: 0 3rem 3rem;
+}
+.wrapper_security .wallet h2 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #23262f;
+}
+
+.formLabel {
+  color: #b1b5c3;
+  font-family: "Nexa-Bold";
+  width: 100%;
+  margin: 10px 0px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Nexa-Bold";
+}
+
+.inputNameField {
+  /* padding: 7px 13px; */
+  width: 100%;
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+  outline: none;
+  background-color: transparent;
+}
+
+.inputField,
+.inputNameField {
+  border: 2px solid #e6e8ec;
+  border-radius: 10px;
+  padding: 12px 16px;
+}
+
+.valid {
+  border-color: green !important;
+}
+.wrapper_security .card_name {
+  margin-top: 4rem;
+}
+.wrapper_security .card_name h4 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #23262f;
+}
+.wrapper_security .wallet .card_added {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+.wrapper_security .wallet .card_added h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+}
+.wrapper_security .wallet .card_added p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777e91;
+  margin: 0;
+}
+.wrapper_security .wallet .card_added button {
+  padding: 12px 16px;
+  background: #3b71fe;
+  border-radius: 90px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fcfcfd;
+  border: none;
+}
+.wrapper_security .wallet .new_card_added {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper_security .wallet .new_card_added h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+}
+.wrapper_security .wallet .new_card_added img {
+  width: 20%;
+}
+
+.wrapper_security .wallet .card_details {
+  margin-top: 2rem;
+}
+.wrapper_security .wallet .card_details p {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #b1b5c4;
+}
+.wrapper_security .wallet .card_details input {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262f;
+}
+.wrapper_security .wallet .card_details input:focus {
+  box-shadow: none;
+  border-color: none !important;
+}
+.wrapper_security .wallet .card_details .card_saved {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+.wrapper_security .wallet .card_details .card_saved h6 {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #141416;
+}
+.checkbox {
+  height: 23px;
+  width: 25px;
+  border: 3px solid #6f767e66 !important;
+  border-radius: 6px;
+}
+
+.checkbox:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 575.98px) {
+  .wrapper_security {
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cntr_main {
+    padding: 0 30px;
+  }
+  .wrapper_security .wallet {
+    padding: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .cntr_main {
+    padding: 0 30px;
+  }
+  .card_added {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 10px;
+  }
+  .wrapper_security {
+    padding: 3rem 0 2rem;
+  }
+  .wrapper_security .wallet {
+    padding: 0;
+  }
+  .wrapper_security .card_name {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .cntr_main {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .cntr_main {
+    padding: 0 30px;
+  }
+}

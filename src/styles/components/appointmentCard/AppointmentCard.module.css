@@ -1,0 +1,79 @@
+.videoBox {
+    background-image: url('/images/program cover.png');
+    border-radius: 10px;
+    background-size: 100%;
+    position: relative;
+    height: 297px;
+    background-repeat: no-repeat;
+}
+
+.dateBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nexa-Bold';
+}
+
+.cardSize {
+    width: 377px;
+    border: none;
+    margin: 20px 0px;
+}
+
+.playBtn {
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+}
+
+.footerImg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.videoBtn {
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding: 0px 15px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.smallCont {
+    font-size: 13px;
+    font-weight: 600;
+    gap: 0.5rem;
+    color: #353945;
+}
+
+@media screen and (max-width: 1280px) {
+    .cardSize {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 717px) and (min-width: 575px) {
+    .cardSize {
+        display: block !important;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .cardSize {
+        display: block !important;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cardSize {
+        width: 300px;
+    }
+}

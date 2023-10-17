@@ -1,0 +1,255 @@
+.bodyContainer {
+  height: calc(100vh - 90px);
+  background: linear-gradient(to top, #fff 0%, #fff 60%, #1c2634 40%);
+  padding: 63px 128px 63px 63px;
+}
+
+.Container {
+  border-radius: 35px;
+  margin-left: 65px;
+  padding: 32px 48px 32px 48px;
+  background: white;
+}
+.advertiseContainer {
+  width: 100%;
+  display: flex;
+}
+
+.weeklyData {
+  padding: 27px 24px 24px 17px;
+  background: #fff;
+  border-radius: 35px;
+  width: 48%;
+}
+
+.headerSection {
+  display: flex;
+  align-items: center;
+}
+
+.headerIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.headertitle {
+  font-family: "Nexa-Bold";
+  font-size: 16px;
+  color: #111827;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.weeklyDataContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.dataBodyContainer {
+  display: flex;
+  align-items: flex-end;
+  gap: 42px;
+}
+
+.bodyAmount {
+  font-family: "Nexa-bold";
+  font-size: 32px;
+}
+
+.anylatics {
+  font-family: "Nexa-Bold";
+}
+.analyticsValueSuccess {
+  font-family: "Nexa-Bold";
+  color: #0caf60;
+}
+.analyticsValueError {
+  font-family: "Nexa-Bold";
+  color: #fd6a6a;
+}
+
+.bodyRightSection {
+  width: 100px;
+  margin-left: auto;
+  height: 50px;
+  margin-bottom: 7px;
+}
+
+.salesContainer {
+  margin-top: 33px;
+  border-radius: 16px;
+}
+
+.salesWrapper {
+  padding: 24px 28px;
+}
+
+.sectionTitle {
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+  color: #384046;
+}
+
+.amountSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topSectionContainer {
+  display: flex;
+}
+
+.amountSectionValue {
+  font-size: 24px;
+  font-family: "Nexa-Bold";
+  color: #111827;
+}
+.tagContainer {
+  color: white;
+  background-color: #384046;
+  font-size: 10px;
+  padding: 4px 8px;
+  font-family: "Nexa-Bold";
+  border-radius: 1000px;
+  margin-left: 8px;
+}
+
+.monthSelector {
+  font-family: "Nexa-Bold";
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 11px 12px;
+  border: 1px solid #f1f2f4;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.ChartContainer {
+  margin-top: 35px;
+}
+
+.advertiseleft {
+  width: 70%;
+}
+
+.advertiseright {
+  width: 30%;
+}
+
+.adOverViewContainer {
+  padding: 28px 24px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.adOverViewTopSection {
+  display: flex;
+  align-items: center;
+}
+
+.adOverViewTitle {
+  font-family: "Nexa-bold";
+  font-size: 20px;
+}
+
+.customSelect {
+  border: none;
+  font-family: "Nexa-bold";
+  font-size: 14px;
+  background-image: url("/images/arrow-down.svg");
+  box-shadow: none !important;
+  outline: none !important;
+}
+.MonthSelectorContainer {
+  margin-left: auto;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.symbol {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.dataname {
+  font-family: "Nexa-Bold";
+  font-size: 12px;
+}
+.datavalue {
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+  margin-left: auto;
+}
+
+.containerHeading {
+  border-bottom: 2px solid #fafafa;
+  font-size: 24px;
+  font-family: "Nexa-Bold";
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .Container {
+    margin-left: 0;
+  }
+  .bodyContainer {
+    padding: 0;
+  }
+  .advertiseContainer {
+    margin: 0;
+    flex-direction: column;
+    padding: 25px;
+  }
+  .advertiseleft {
+    width: 100%;
+  }
+  .topSectionContainer {
+    flex-direction: column;
+  }
+  .monthSelector {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .advertiseright {
+    width: 100%;
+  }
+  .weeklyDataContainer {
+    display: block;
+    width: 100%;
+  }
+  .weeklyData {
+    width: 100%;
+  }
+  .dataBodyContainer {
+    width: 100%;
+  }
+  .bodyRightSection {
+    margin-left: auto;
+  }
+  .bodyAmount {
+    font-size: 21px;
+  }
+  .anylatics {
+    font-size: 13px;
+  }
+}
+
+
+.advertiseContainerTopcnt{
+  margin-top: 13rem !important;
+  /* height: 100vh !important; */
+  text-align: center;
+  font-size: 8rem;
+  font-weight: 700;
+  color: gray;
+  font-family: "Nexa-Bold";
+}

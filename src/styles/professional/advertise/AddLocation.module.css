@@ -1,0 +1,237 @@
+.bodyContainer {
+    height: calc(100vh - 90px);
+    background: linear-gradient(to top, #fff 0%, #fff 60%, #1c2634 40%);
+    padding: 0px 64px;
+}
+
+.Container {
+    background-color: #fff;
+    margin: 0px 126px;
+    border-radius: 16px;
+}
+
+.containerHeading {
+    padding: 32px 16px 32px 48px;
+    border-bottom: 2px solid #FAFAFA;
+}
+
+.containerHeading>h2 {
+    font-size: 24px;
+    font-family: 'Nexa-Bold';
+    margin-bottom: 0;
+}
+
+.sidebarContainer {
+    width: 30%;
+    padding: 16px;
+}
+
+.mainContainer {
+    width: 70%;
+    background-color: #FAFAFA;
+    padding: 30px;
+    height: auto;
+    margin-bottom: 100px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+}
+
+.mainContainer>div {
+    padding: 24px;
+    height: 90%;
+}
+
+.mainContainer>div>h6 {
+    font-size: 18px;
+    font-family: 'Nexa-Bold';
+    margin: 0;
+    display: inline;
+}
+
+.mainContainer>div>p {
+    color: #718096;
+    font-size: 14px;
+    margin-top: 12px;
+    font-family: 'Nexa-Bold';
+}
+
+.formLabel {
+    font-size: 16px;
+    font-family: 'Nexa-Bold';
+    margin-bottom: 1rem;
+}
+
+.formInput {
+    border: none;
+    height: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 19px;
+    font-size: 16px;
+    font-family: 'Nexa-Bold';
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.nextBtn {
+    font-size: 14px;
+    font-family: 'Nexa-Bold';
+    border-radius: 55px;
+    border: 1px solid black;
+    position: absolute;
+    right: 29px;
+    bottom: 29px;
+    padding: 13px;
+    background-color: #fff;
+}
+
+.tbtitleIcon {
+    width: 15px;
+    margin-left: 7.5px;
+    color: #6c7278;
+    height: 15px;
+}
+
+.bottomContainer {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    height: fit-content;
+}
+
+.countryContainer {
+    margin: 20px 0px;
+}
+
+.country {
+    padding: 17px 0px;
+    display: flex;
+    gap: 1rem;
+    font-family: 'Nexa-Bold';
+    font-size: 16px;
+    align-items: center;
+    margin: 0;
+    border-radius: 16px;
+    cursor: pointer;
+    margin: 7px 0px;
+}
+
+.active {
+    background-color: #fff;
+}
+
+.showIcon {
+    display: block;
+}
+.hide {
+    display: none;
+}
+
+.icon {
+    margin-left: auto;
+    margin-right: 5px;
+}
+.country > img {
+    height: 24px;
+}
+
+.selectedCountry {
+    font-size: 14px;
+    font-family: 'Nexa-Bold';
+    background-color: #353945;
+    border-radius: 100px;
+    padding: 6px 12px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.finalizeADD {
+    font-size: 14px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 55px;
+    font-size: 14px;
+    font-family: 'Nexa-Bold';
+    position: absolute;
+    bottom: 20px; 
+    right: 20px;
+    padding: 8px 16px;
+    background-color: white;
+}
+
+
+@media screen and (min-width: 2256px) and (max-width: 3840px) {
+    .mainContainer {
+        height: calc(100vh - 500px);
+    }
+  }
+  
+  @media screen and (max-width: 1024px) and (min-width: 230px) {
+    .pageContainer {
+      flex-direction: column;
+    }
+  
+    .mainContainer {
+      width: 100%;
+    }
+  
+    .sidebarContainer {
+      width: 100%;
+    }
+  
+    .bodyContainer {
+        padding: 0;
+    }
+
+    .Container {
+        margin: 0;
+    }
+
+    .formInput {
+        padding: 10px;
+      }
+  }
+  
+  @media screen and (max-width: 540px) and (min-width: 230px) {
+  
+    .mainContainer > div > p {
+      font-size: 10px;
+    }
+  
+    .formLabel {
+      font-size: 10px;
+      margin-bottom: 0.5rem;
+    }
+    
+    .formLabel>span { 
+      font-size: 10px;
+    }
+  
+    .formContainer {
+      padding: 0px;
+    }
+  
+    .nextBtn {
+      font-size: 11px;
+      padding: 8px 13px;
+    }
+  
+    .formInput {
+      padding: 7px;
+    }
+
+    .mainContainerHeading > h3 {
+        font-size: 14px;
+    }
+
+    .midContainers {
+        flex-direction: column;
+    }
+
+    .midContainers > div {
+        width: 100%;
+    }
+  }

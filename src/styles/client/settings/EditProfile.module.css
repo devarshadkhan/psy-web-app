@@ -1,0 +1,437 @@
+/* main container */
+.cntr_main {
+  padding: 0 160px;
+}
+/* main container */
+/* edit profile sidebar css only sidebar */
+.edit_profile {
+  padding: 6rem 0 2rem;
+}
+.edit_sidebar {
+  
+  background: #fcfcfd;
+  border: 1px solid #f4f5f6;
+  box-shadow: 0px 64px 64px 17px rgba(15, 15, 15, 0.08);
+  border-radius: 16px;
+  /* padding: 48px 32px; */
+  padding: 30px 60px;
+}
+
+
+
+.edit_sidebar .edit_profile_name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* margin: 0 0 2rem; */
+  padding: 8px 0px;
+  text-decoration: none;
+}
+
+.active {
+  color: #000 !important;
+}
+.edit_sidebar .edit_profile_name p {
+  margin: 0;
+  color: #777e91;
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* css for errors */
+
+.invalid,
+.invalid:focus {
+  border: 1px solid red !important;
+  color: red !important;
+}
+
+.invalid > .floatingLabel,
+.invalid:focus > .floatingLabel {
+  color: red !important;
+}
+
+/* main edit profile css page */
+
+.edititing_profile {
+  padding: 0 3rem 3rem;
+}
+.edititing_profile .edit_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.edititing_profile .edit_name h2 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #23262f;
+}
+.edititing_profile .edit_name a {
+  font-family: "Nexa-Bold";
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 90px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.edititing_profile .account_info {
+  margin-top: 4rem;
+}
+.edititing_profile .account_info2 {
+  margin-top: 2rem;
+}
+
+.edititing_profile .account_info1 {
+  margin-top: 1rem;
+}
+.edititing_profile .account_info img {
+  width: 100%;
+}
+.edititing_profile .account_info h6 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+  margin-bottom: 1rem;
+}
+.edititing_profile .account_info .display_name {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.edititing_profile .account_info .display_name p {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #b1b5c4;
+}
+.edititing_profile .account_info .display_name input {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262f;
+}
+.edititing_profile .account_info .display_name input:focus {
+  box-shadow: none;
+  border-color: none !important;
+}
+.edititing_profile .account_info .display_name textarea:focus {
+  box-shadow: none;
+  border-color: none !important;
+}
+.edititing_profile .account_info .display_name textarea {
+  padding: 20px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+  height: 180px;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262f;
+  resize: none;
+}
+.edititing_profile .account_info .display_name select {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262f;
+  min-height: 52.2px;
+}
+.edititing_profile .account_info .display_name select span {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #b1b5c4;
+}
+.edititing_profile .account_info .display_name select:focus {
+  box-shadow: none !important;
+}
+.edititing_profile .account_info .display_name .twitter_verify {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 3px;
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+}
+.edititing_profile .account_info .display_name .twitter_verify input {
+  border: none;
+  padding: 0;
+  width: 50%;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.edititing_profile .account_info .display_name .twitter_verify input:focus {
+  border: none;
+}
+.edititing_profile .account_info .display_name .twitter_verify button {
+  /* padding: 8px 8px 8px 12px; */
+  padding: 4px 8px;
+  background-color: transparent;
+  border: 2px solid #e6e8ec;
+  border-radius: 90px;
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262f;
+  margin-left: auto;
+}
+.edititing_profile .account_info .submit_btn {
+  display: flex;
+  gap: 3.3rem;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+.edititing_profile .account_info .submit_btn button {
+  padding: 16px 24px;
+  background: #3b71fe;
+  border-radius: 90px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  border: transparent;
+  color: #fcfcfd;
+  width: 220px;
+}
+.edititing_profile .account_info .submit_btn p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #777e91;
+  margin: 0;
+  width: 150px;
+}
+.edititing_profile .account_info .submit_btn p img {
+  width: 10%;
+  margin-right: 15px;
+}
+
+@media (max-width: 575.98px) {
+  .edit_sidebar {
+    display: none;
+  }
+  .edititing_profile .edit_name h2 {
+    font-size: 35px;
+  }
+  .edititing_profile .account_info .submit_btn {
+    gap: 2rem;
+  }
+  .edititing_profile .account_info .submit_btn button {
+    padding: 16px 17px;
+    background: #3b71fe;
+    border-radius: 90px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    border: transparent;
+    color: #fcfcfd;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .edit_sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .edit_sidebar {
+    display: none;
+  }
+  .cntr_main {
+    padding: 0 30px;
+  }
+  .edit_profile {
+    padding: 3rem 0 2rem;
+  }
+  .edititing_profile {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .cntr_main {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .cntr_main {
+    padding: 0 30px;
+  }
+}
+/* 
+ .RBorder{
+  border: none !important;
+ }
+
+ .invalid,
+.invalid:focus {
+  border: 2px solid red !important;
+  border-radius: 12px !important;
+  color: red !important;
+}
+
+.invalid > .floatingLabel,
+.invalid:focus > .floatingLabel {
+  color: red !important;
+} */
+
+
+
+
+
+
+.security_info {
+  margin-top: 4rem;
+}
+.security_info h6 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #23262f;
+}
+
+.security_info .updt_password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  /* text-align: center; */
+}
+
+/* .security_info .updt_passwords:nth-child(1) {
+  text-align: start;
+} */
+.updt_flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.security_info .updt_passwords {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  width: 46%;
+  /* text-align: center; */
+}
+.security_info .updt_passwords h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.security_info .updt_passwords p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777e91;
+}
+.security_info .updt_password h6{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.security_info .updt_password p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777e91;
+  margin: 0;
+}
+.security_info .updt_passwords button {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 90px;
+  background-color: transparent;
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #23262f;
+}
+.security_info .updt_password button {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 90px;
+  background-color: transparent;
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #23262f;
+}
+
+.security_info img {
+  width: 100%;
+  /* margin: 3rem 0; */
+}
+.bottom_image{
+  width: 100%;
+}

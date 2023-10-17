@@ -1,0 +1,107 @@
+.topSection {
+  width: 100%;
+  background-image: url("/images/reviewBackround.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 136px;
+}
+.titleSection {
+  margin-top: 5px;
+  font-size: 32px;
+  font-family: "Poppins-Black";
+  display: flex;
+  justify-content: center;
+}
+.topSectionUpper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.topSectionUpper > span {
+  color: #4d5461;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  font-family: "Nexa-Bold";
+  cursor: pointer;
+}
+
+.bottomSection {
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #23262f;
+}
+
+.reviewSection {
+  display: flex;
+  position: relative;
+  margin-top: 47px;
+  border: 2px solid #e6e8ec;
+  border-radius: 16px;
+  padding: 16px 18px 16px 24px;
+  /* flex-wrap: wrap; */
+}
+
+.controlsContainer {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.textInput {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 80%;
+  resize: none;
+  height: 70px;
+}
+
+.postbtn {
+  background-color: #3b71fe;
+  padding: 12px 16px;
+  color: white;
+  gap: 15px;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  border-radius: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.emojiPickerContainer {
+  position: absolute;
+  right: 0;
+}
+
+.bodySection {
+  position: relative;
+}
+
+.reviewLength {
+  font-size: 14px;
+  text-align: end;
+  margin: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .topSection {
+    padding: 20px;
+  }
+  .bottomSection {
+    padding: 20px;
+  }
+}
+
+.textInput[placeholder]
+{
+    display: flex;
+    align-items: center;
+}

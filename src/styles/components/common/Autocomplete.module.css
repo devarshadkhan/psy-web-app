@@ -1,0 +1,31 @@
+.floatingLabel {
+    color: #9EA3AE;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Nexa-Bold";
+    line-height: 28px;
+}
+
+.greyInputBg {
+    font-family: "Nexa-Bold";
+    background-color: #F9FAFB !important;
+    border: 1px solid #E5E6EB;
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.greyInputBg:focus {
+    border-color: #d3d4db !important;
+    box-shadow: none;
+}
+
+.invalid,
+.invalid:focus {
+    border: 1px solid red !important;
+    color: red !important;
+}
+
+.invalid>.floatingLabel,
+.invalid:focus>.floatingLabel {
+    color: red !important;
+}

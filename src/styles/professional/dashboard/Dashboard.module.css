@@ -1,0 +1,182 @@
+.bodyContainer {
+  /* height: calc(100vh - 90px); */
+  height: 520px;
+  max-height: 100%;
+  background: linear-gradient(to top, #fff 0%, #fff 54%, #1c2634 46%);
+  padding: 0 63px;
+}
+
+.sctionTitleContainer {
+  padding-top: 24px;
+}
+.sectionTitle {
+  color: white;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-family: "Nexa-Light";
+}
+
+.currentLocationContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.locations {
+  margin-bottom: 0;
+  color: #a2a6aa;
+}
+
+.tabsContainer {
+  width: fit-content !important;
+  margin-top: 24px;
+}
+
+.tabs {
+  border: none !important;
+  padding: 15px 22px !important;
+  color: #a2a6aa !important;
+  font-size: 16px !important;
+  outline: none;
+}
+
+.activeTab {
+  background-color: #1c2634 !important;
+  background: none !important;
+  outline: none !important;
+  color: white !important;
+  border-bottom: 3px solid white !important;
+}
+
+.tabsContainer {
+  width: fit-content !important;
+  margin-top: 24px;
+}
+
+.tabs:hover {
+  color: #fff !important;
+}
+
+.selectionLocationIcons {
+  font-family: "Nexa-Bold";
+  stroke-width: 1px;
+  color: white !important;
+}
+
+.selectedLocation {
+  color: #fff;
+  font-family: "Nexa-Bold";
+}
+
+.locationIcon {
+  margin-left: 21px;
+  margin-right: 21px;
+  color: #a2a6aa;
+}
+
+.listItem {
+  background-color: #a2a6aa;
+}
+
+.cardContainer {
+  margin-left: 61px;
+  z-index: 10;
+}
+
+.addANewAccountButton {
+  padding: 12px 24px;
+  border-radius: 55px;
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+  background: #fff;
+  width: fit-content;
+  position: absolute;
+  right: 30%;
+  top: 8rem;
+}
+
+.RightContainer {
+  width: 25%;
+  position: absolute;
+  right: 0;
+  height: calc(100vh - 90px);
+  top: 123px;
+  background-color: aliceblue;
+}
+
+.top10 {
+  top: 10% !important;
+}
+
+.leftContainer {
+  width: 75%;
+}
+
+.overViewMainContainer {
+  display: flex;
+  width: 100%;
+}
+
+.professionalOverviewImage {
+  position: fixed;
+  display: block;
+  width: 65%;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profileWrapper {
+  z-index: 10;
+}
+
+@media screen and (min-width: 1441px) {
+  .profileWrapper {
+    height: calc(100vh - 72px) !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .overViewMainContainer {
+    display: block;
+  }
+  .addANewAccountButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border: 1px solid #e6e8ec;
+  }
+
+  .cardContainer {
+    padding: 20px 0px 20px 0;
+    margin-left: 0;
+  }
+  .leftContainer {
+    width: 100%;
+  }
+
+  .RightContainer {
+    position: relative;
+    width: 100%;
+  }
+  .professionalOverviewImage {
+    display: none;
+  }
+  .bodyContainer {
+    padding: 0px;
+  }
+  .HeaderContainer {
+    padding-left: 25px;
+  }
+  .tabsContainer {
+    width: 100% !important;
+  }
+  .tabs {
+    padding: 15px 0 !important;
+    width: 33.33vw !important;
+  }
+}

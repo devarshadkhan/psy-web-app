@@ -1,0 +1,152 @@
+.profileWrapper {
+  background-color: #f9fafb;
+  border-left: 1px solid #e5e6eb;
+  padding: 40px; 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.barContainer {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.bar {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.pName {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  font-family: "Nexa-bold";
+}
+
+.ppic {
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  object-fit: cover;
+}
+
+.pGreyText {
+  font-size: 12px;
+  color: #6c727f;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 1px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.topSectionWrapper {
+  margin-bottom: 25px;
+}
+
+.DProw {
+  padding: 0;
+  border-right: 1px solid #e5e6eb;
+}
+
+.DProw h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Nexa-Bold";
+}
+
+.DProw > div {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6c727f;
+  text-align: center;
+}
+
+.midC {
+  font-size: 16px;
+  font-weight: 400 !important;
+  margin-left: 15px;
+  color: #2a2627;
+  margin-bottom: 0;
+}
+.lineC {
+  padding: 13px !important;
+}
+
+@media screen and (min-width: 1441px) {
+  .profileWrapper {
+    height: calc(100vh - 70px);
+  }
+
+  .lineC {
+    padding: 18px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .DProw {
+    padding: 0px 4px;
+  }
+
+  .DProw > div {
+    font-size: 14px;
+  }
+
+  .DProw h4 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .leftIcon {
+    height: 5px;
+  }
+
+  .midC {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .profileWrapper {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .profileWrapper {
+    padding: 20px;
+  }
+}
+
+
+
+
+@media (max-width: 575.98px) {  }
+
+
+@media (max-width: 767.98px) {  }
+
+
+@media (max-width: 991.98px) {  }
+
+
+@media (max-width: 1199.98px) { 
+  .profileWrapper {
+    padding: 20px; 
+  }
+ }
+
+
+@media (max-width: 1399.98px) {  }
+

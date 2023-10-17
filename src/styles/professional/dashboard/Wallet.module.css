@@ -1,0 +1,328 @@
+.bodyContainer {
+  /* height: calc(100vh - 90px); */
+  height: 520px;
+  max-height: 100%;
+  background: linear-gradient(to top, #fff 0%, #fff 54%, #1c2634 46%);
+  padding: 0 63px;
+}
+.walletContainer {
+  width: 100%;
+  display: flex;
+}
+
+.paymentInfoContainer {
+  width: 30%;
+  margin-top: 10px;
+}
+.tbContainer {
+  width: 100%;
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.tbTop {
+  display: flex;
+}
+
+.tbtitleContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.chartChecksContainer {
+  display: flex;
+  gap: 32px;
+}
+
+.customSelect {
+  box-shadow: none !important;
+  border: none !important;
+  color: #acb5bb !important;
+  outline: none !important;
+  background-image: url("/images/arrow-down.svg");
+}
+
+.tbtitleContainerChart {
+  display: flex;
+  align-items: center;
+}
+
+.tbtitle {
+  font-family: "Nexa-Bold";
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.tbtitleIcon {
+  width: 15px;
+  margin-left: 7.5px;
+  color: #6c7278;
+  height: 15px;
+}
+.cardDetailsContainer {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cardDetailsNumber {
+  margin-bottom: 0;
+  color: #acb5bb;
+}
+.cardDetailsDrop {
+  color: #acb5bb;
+}
+
+.tbValueContainer {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.tbincereasepercent {
+  display: flex;
+}
+
+.tbValue {
+  line-height: 54px;
+  font-family: "Nexa-Bold";
+  font-size: 36px;
+  color: #6c7278;
+}
+
+.tbincereasepercent {
+  display: flex;
+  align-items: center;
+  padding: 3px 4px;
+  background-color: #d6fbe6;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.tbincereasepercenticon {
+  width: 12px;
+  color: #31b099;
+  height: 12px;
+}
+
+.tbincrease {
+  margin-top: 17.5px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tbincereasepercenttext {
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+}
+
+.tbincereasepercentvalue {
+  color: #31b099;
+  font-family: "Manrope-Medium";
+  font-size: 14px;
+  gap: 15px;
+}
+
+.tbButton1 {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 10px;
+  background-color: #006aff;
+  padding: 12px 0px;
+  border-radius: 55px;
+  /* pointer-events: none; */
+}
+.tbButton {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 10px;
+  background-color: #217efd;
+  padding: 12px 0px;
+  border-radius: 55px;
+}
+
+.tbButton > span {
+  font-family: "Nexa-Bold";
+}
+
+.tbactions {
+  display: flex;
+
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.profesyContainer {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  width: fit-content;
+  margin-top: 25px;
+}
+
+.manageProfesy {
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 24px;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  border: 1px solid #dce4e8;
+  border-radius: 55px;
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+}
+
+.cardsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.chartWrapper {
+  margin: 0 37.5px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  margin-top: 10px;
+}
+
+.erningInfoContainer {
+  width: 80%;
+}
+
+.chartTopSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.toggleBtn {
+  height: 22px !important;
+  width: 35px !important;
+  /* background-color: #fff; */
+}
+
+.toggleBtn:checked {
+  background-color: #fff;
+  border: 1.5px solid #34b67f !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2334b67f'/%3e%3c/svg%3e") !important;
+  border-color: #34b67f;
+  border-width: 1.5px !important;
+}
+
+.toggleBtn:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org…='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+}
+
+.toggleBtn:not(:checked) {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+  border-width: 1.5px !important;
+}
+
+.checkboxLabel {
+  color: #6c7278;
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+}
+
+.checkboxLabel {
+  margin-left: 10px;
+  position: relative;
+  top: 3px;
+}
+
+.toggleBtn:focus {
+  box-shadow: none;
+  /* border: 1px solid #000; */
+}
+
+.dataTableContainer {
+  padding: 24px;
+}
+
+.custombody {
+  background-color: #fff;
+}
+
+.cardContainer {
+  position: relative;
+}
+
+.comingSoon {
+  position: absolute;
+  height: 162px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+  width: 100%;
+  background-color: #ffffffa1;
+  z-index: 10;
+  /* width: 350px; */
+}
+
+@media screen and (max-width: 1024px) {
+  .bodyContainer {
+    padding-left: 0px;
+  }
+  .cardsWrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .walletContainer {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .paymentInfoContainer {
+    width: 100% !important;
+    padding: 20px;
+  }
+  .chartTopSection {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .profesyContainer {
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .erningInfoContainer {
+    width: 100% !important;
+  }
+  .chartWrapper {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .paymentInfoContainer {
+    width: 30%;
+  }
+  .erningInfoContainer {
+    width: 70%;
+  }
+}
+
+.eyeIcon {
+  font-size: 30px;
+  font-weight: bold;
+  color: #9ea3ae;
+}
+.iconContaier{
+  margin-left: auto;
+}

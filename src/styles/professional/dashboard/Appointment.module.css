@@ -1,0 +1,438 @@
+.bodyContainer {
+  /* height: calc(100vh - 90px); */
+  height: 520px;
+  max-height: 100%;
+  background: linear-gradient(to top, #fff 0%, #fff 54%, #1c2634 46%);
+  padding: 0 63px;
+}
+.appointmentmain {
+  display: flex;
+  width: 100%;
+  margin-top: 28px;
+}
+
+.cardSize {
+  min-width: 298px;
+  width: 33.33%;
+  height: 189px !important;
+  border-radius: 24px;
+  background-color: #fcfcfd;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 24px;
+  border: none;
+}
+
+.cardWrapper {
+  padding: 0 55px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.cardHeader {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 8px !important;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cardBtn {
+  width: 184px;
+  background-color: #3b71fe;
+  border-radius: 90px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Nexa-Bold";
+}
+
+.cardLine {
+  background-color: #e6e8ec;
+  height: 2px;
+}
+
+.cardContent {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Nexa-Bold";
+}
+
+.cardSubContent {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Nexa-Bold";
+  color: rgba(119, 126, 144, 1);
+}
+
+.appointmentProgressContainer {
+  display: flex;
+  gap: 31px;
+}
+
+.Sectiontitle {
+  font-size: 20px;
+  line-height: 48px;
+  margin-top: 68px;
+  padding-left: 62px;
+}
+
+.progressCardContainer {
+  border: 1px solid #e5e6eb;
+  border-radius: 8px;
+  background: white;
+  padding: 12.5px 16px;
+  min-width: 265px;
+  /* width: 33.33%; */
+  height: 143px;
+  margin-right: 10px;
+}
+.cardTitle {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.cardTitle svg {
+  width: 24px;
+  height: 24px;
+  padding: 1px 5px 5px 5px;
+}
+.progressValue {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  margin-left: 6px;
+}
+.appointmentProgressContainer {
+  padding: 0 65px;
+  /* justify-content: space-between; */
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.progressDataValue {
+  font-size: 24px;
+  line-height: 100%;
+  font-family: "Nexa-Bold";
+  font-weight: 700;
+}
+.progressDataTotal {
+  font-size: 14px;
+  color: #9ea3ae;
+  margin-left: 3px;
+  font-family: "Nexa-Bold";
+}
+
+.progressValue {
+  display: flex;
+  align-items: flex-end;
+}
+.progressDataValueAvg {
+  font-size: 14px;
+  color: #9ea3ae;
+  margin-left: auto;
+}
+.customProgressStylng {
+  background-color: #f4f4f6 !important;
+}
+.customProgressBarStylng {
+  background-color: #a1e510 !important;
+}
+.barContainer {
+  height: 10px;
+}
+.cardBtn {
+  margin-top: 30px;
+}
+
+.manage_appointement_title {
+  font-size: 24px;
+  margin-left: 1.5rem;
+}
+.MuiPickersCalendarHeader-label {
+  color: #191d2a;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.containerClass {
+  padding: 32px 32px 32px 48px;
+}
+
+@media (max-width: 1220px) {
+  .containerClass {
+    padding: 0;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1220px) {
+  .progress {
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 1220px) {
+  .wrapperClass {
+    width: 100% !important;
+  }
+}
+
+.appoimentListHeading {
+  margin-left: 1.5rem;
+}
+
+.sleepTotalTitle {
+  font-size: 20px;
+  font-family: "Nexa-Bold";
+}
+
+.sleepTotalTitleSection {
+  color: #192126;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  padding-left: 1.5rem;
+}
+.categorySelector {
+  display: flex;
+  border: 1px solid #e5e6eb;
+  border-radius: 35px;
+  align-items: center;
+  padding-left: 13.27px;
+  padding-right: 13.27px;
+}
+.categoryIcon {
+  font-size: 14px;
+}
+.category {
+  margin-left: 14px;
+  margin-right: 14px;
+  color: #192126;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.duration {
+  margin-top: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.durationIcon {
+  font-size: 13.33px;
+  color: #9ea3ae;
+}
+.durationUnit {
+  font-family: "Nexa-Light";
+  font-size: 20px;
+  color: #9ea3ae;
+}
+
+.durationValue {
+  font-family: "Nexa-Light";
+  font-size: 20px;
+  color: #192126;
+  font-weight: 700;
+}
+
+.durationWrapperStyling {
+  margin-left: 8px;
+}
+
+.sleepTotalSectionContainer {
+  padding: 24px;
+  border: 1px solid #e5e6eb;
+  border-radius: 8px;
+  background: white;
+  width: 100%;
+}
+.sleepContainer {
+  padding: 0 65px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+}
+
+.sleepScoreContainer {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/images/speedScoreBackground.png");
+  width: 40%;
+  border: 1px solid #e5e6eb;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.scoreGaugeWrapper {
+  display: flex;
+
+  margin-top: 32px;
+}
+.scoreValueWrapper {
+  display: flex;
+  align-items: flex-end;
+  color: #9ea3ae;
+  margin-bottom: 2rem;
+  margin-left: 24px;
+  text-indent: 8px;
+}
+
+.rightWrapper {
+  width: 100%;
+}
+
+.value {
+  font-family: "Poppins-Black";
+  line-height: 35px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #e5e6eb;
+}
+.totaltarget {
+  font-size: 16px;
+  white-space: nowrap;
+  font-family: "SpaceGrotesk-Medium";
+}
+.suggestionIconContainer {
+  padding: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  background-color: #4d5461;
+}
+.speedScoreSuggestion {
+  padding: 15px 16px;
+  width: 100%;
+  background-color: #384046;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  margin-top: 44px;
+}
+.SuggestionTitle {
+  font-size: 12px;
+  color: #9ea3ae;
+  font-weight: 500;
+}
+.SuggestionBody {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .bodyContainer {
+    padding: 0;
+  }
+  .sleepTotalSectionContainer {
+    padding: 10px;
+  }
+  .scoreGaugeWrapper {
+    padding-left: 1.5rem;
+  }
+  .scoreValueWrapper {
+    margin-left: 10px;
+  }
+  .value {
+    line-height: 100%;
+    font-size: 25px;
+  }
+  .totaltarget {
+    font-size: 13px;
+  }
+  .sleepTotalTitle {
+    font-size: 14px;
+  }
+  .sleepScoreContainer {
+    padding: 10px;
+  }
+  .rightWrapper {
+    width: 100% !important;
+  }
+  .cardSize {
+    margin-bottom: 15px;
+  }
+
+  .appointmentmain {
+    flex-direction: column;
+  }
+
+  .dateCalanderContainer {
+    padding-left: 20px;
+  }
+
+  .cardWrapper {
+    margin-top: 20px !important;
+    overflow-x: scroll !important ;
+    height: 100% !important;
+  }
+
+  .appointmentProgressContainer {
+    margin: 20px !important;
+    overflow-x: scroll !important;
+  }
+
+  .Sectiontitle {
+    margin: 20px !important;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .sleepContainer {
+    margin-left: 1.5rem;
+    flex-direction: column;
+    padding: 0 !important;
+  }
+  .sleepTotalSectionContainer {
+    width: 100% !important;
+  }
+  .sleepContainer {
+    margin-right: 1.5rem;
+  }
+  .sleepScoreContainer {
+    margin-left: 0;
+    width: 100% !important;
+    margin-top: 32px !important;
+  }
+  .rightSectioncontainer {
+    width: 100% !important;
+  }
+  .rightWrapper {
+    width: 64vw;
+  }
+  .cardWrapper {
+    overflow-x: auto;
+    padding: 0 10px;
+    margin: 0 10px;
+    height: 30vh;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .appointmentProgressContainer {
+    overflow-x: auto;
+    padding: 0;
+    margin: 0 20px;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .sleepTotalSectionContainer {
+    width: 70vw;
+  }
+  .sleepScoreContainer {
+    width: 70vw;
+    margin-top: 32px;
+  }
+}

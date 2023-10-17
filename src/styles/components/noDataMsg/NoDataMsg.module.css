@@ -1,0 +1,43 @@
+/* .noChatHistorytext {
+    font-size: 40px;
+    position: absolute;
+    left: 38%;
+    top: 68%;
+    color: lightgray;
+    display: flex;
+    text-align: center;
+    font-family: "Nexa-Bold";
+  }
+  
+  .noChatHistory {
+    font-size: 40px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    color: lightgray;
+    display: flex;
+    text-align: center;
+    font-family: "Nexa-Bold";
+  } */
+
+  .noChatHistorytext{
+    font-size: 18px;
+    /* position: absolute; */
+    /* left: 38%;
+    top: 68%; */
+    color: lightgray;
+    text-align: center;
+    /* display: flex;
+    text-align: center;*/
+    font-family: "Nexa-Bold"; 
+    margin-top: 1rem;
+  }
+
+  .noChatHistory{
+    height: 100%;
+    margin-top: 5rem;
+}
+/* .IMG{
+  width: 100px;
+  max-width: 100px;
+} */

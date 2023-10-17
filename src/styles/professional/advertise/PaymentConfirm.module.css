@@ -1,0 +1,542 @@
+.bodyContainer {
+    height: calc(100vh - 90px);
+    background: linear-gradient(to top, #fff 0%, #fff 60%, #1c2634 40%);
+    padding: 0px 126px;
+  }
+  
+  .Container {
+    background-color: #fff;
+    padding: 24px 0px;
+    border-radius: 16px;
+  }
+  
+  .containerHeading {
+    padding: 9px 16px 32px 48px;
+    border-bottom: 2px solid #FAFAFA;
+  }
+  
+  .containerHeading>h2 {
+    font-size: 24px;
+    font-family: 'Nexa-Bold';
+    margin-bottom: 0;
+  }
+  
+  .sidebarContainer {
+    width: 30%;
+    padding: 16px;
+  }
+  
+  .mainContainer {
+    width: 70%;
+    background-color: #FAFAFA;
+    /* background-color: red; */
+    padding: 30px;
+    height: auto;
+  }
+  
+  .mainContainer>div {
+    background-color: #fff;
+    padding: 24px;
+    /* height: 90%; */
+    height: auto;
+    position: relative;
+  }
+  
+  .mainContainerHeading>h3 {
+    font-size: 18px;
+    font-family: 'Nexa-Bold';
+    margin: 0;
+    display: inline;
+  }
+  
+  .mainContainer>div>p {
+    color: #718096;
+    font-size: 14px;
+    margin-top: 12px;
+    font-family: 'Nexa-Bold';
+  }
+  
+  .formContainer {
+    padding: 32px 0px 24px 0px;
+  }
+  
+  .formLabel {
+    font-size: 16px;
+    font-family: 'Nexa-Bold';
+    margin-bottom: 1rem;
+  }
+  
+  .formLabel>span {
+    font-size: 16px;
+  }
+  
+  .formInput {
+    border: none;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Nexa-Bold';
+  }
+  
+  .formInput:focus {
+    box-shadow: none;
+    border: none;
+    background-color: #FAFAFA;
+  }
+  
+  .nextBtn {
+    font-size: 14px;
+    font-family: 'Nexa-Bold';
+    border-radius: 55px;
+    border: 1px solid black;
+    position: absolute;
+    right: 29px;
+    bottom: 29px;
+    padding: 13px;
+    text-decoration: none;
+  }
+  
+  .tbtitleIcon {
+    width: 15px;
+    margin-left: 7.5px;
+    color: #6c7278;
+    height: 15px;
+  }
+  
+  .imgContainer {
+    width: 65%;
+    background-color: #E8E8E8;
+    border-radius: 12px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgContainer>div>img {
+    height: auto;
+    width: fit-content;
+  }
+  
+  .midContainers {
+    align-items: center;
+  }
+  
+  .midContainers > div {
+    width: 50%;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    height: fit-content;
+  }
+  
+  .midContainers > div > h6, .bottomContainer > h6 {
+    font-size: 16px;
+    font-family: 'Nexa-Bold';
+  }
+  
+  .midContainers > div > p, .bottomContainer > p {
+    font-size: 12px;
+    color: #718096;
+    margin: 0;
+  }
+  
+  .midContainers > div:nth-child(1) {
+    border: 1px solid black;
+  }
+  
+  .bottomContainer {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    height: fit-content;
+  }
+  
+  @media screen and (min-width: 2256px) and (max-width: 3840px) {
+    .mainContainer {
+        height: calc(100vh - 500px);
+    }
+  }
+  
+  @media screen and (max-width: 1024px) and (min-width: 230px) {
+    .pageContainer {
+      flex-direction: column;
+    }
+  
+    .mainContainer {
+      width: 100%;
+    }
+  
+    .sidebarContainer {
+      width: 100%;
+    }
+  
+    .bodyContainer {
+      padding: 0px;
+    }
+  
+    .formInput {
+        padding: 10px;
+      }
+  }
+  
+  @media screen and (max-width: 540px) and (min-width: 230px) {
+  
+    .mainContainer > div > p {
+      font-size: 10px;
+    }
+  
+    .formLabel {
+      font-size: 10px;
+      margin-bottom: 0.5rem;
+    }
+    
+    .formLabel>span {
+      font-size: 10px;
+    }
+  
+    .formContainer {
+      padding: 0px;
+    }
+  
+    .nextBtn {
+      font-size: 11px;
+      padding: 8px 13px;
+    }
+  
+    .formInput {
+      padding: 7px;
+    }
+  
+    .mainContainerHeading > h3 {
+        font-size: 14px;
+    }
+  
+    .midContainers {
+        flex-direction: column;
+    }
+  
+    .midContainers > div {
+        width: 100%;
+    }
+  }
+  
+  
+  
+  
+  /* Payment CSS */
+  
+  .wrapper_payment {
+    padding: 2rem 0;
+  }
+  .wrapper_payment .back_btn {
+    cursor: pointer;
+  }
+  .wrapper_payment .back_btn span {
+    font-family: "Nexa-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    font-feature-settings: "ss01" on;
+    color: #4d5461;
+  }
+  
+  .backHeader {
+    /* padding: 23px 160px; */
+    padding: 23px 160px;
+  }
+  
+  .backHeader a {
+    font-size: 16px;
+    font-family: "Nexa-Bold";
+    text-decoration: none;
+    color: #4d5461;
+  }
+  
+  .paymentWrapper {
+    padding: 0px 30px;
+    /* margin-top: 3rem; */
+  }
+  
+  .pageHeading {
+    font-size: 44px;
+    font-family: "Nexa-Bold";
+  }
+  
+  .line {
+    background-color: #e6e8ec;
+  }
+  
+  .leftContainer {
+    /* padding: 0px 80px 0px 0px; */
+    /* padding: 3rem 0 !important; */
+  }
+  
+  .paymentOption > p {
+    font-size: 24px;
+    font-family: "Nexa-Bold";
+  }
+  
+  .paymentOption > div > span {
+    font-size: 14px;
+    font-family: "Nexa-Bold";
+    color: #777e90;
+    margin-right: 24px;
+  }
+  
+  .paymentOption > div > button {
+    background-color: #353945;
+    color: white;
+    border-radius: 100px;
+    font-family: "Nexa-Bold";
+    font-size: 14px;
+    padding: 6px 12px;
+    border: none;
+    outline: none;
+  }
+  
+  .btnContainer {
+    width: 44%;
+  }
+  
+  .creditCard > p {
+    font-size: 16px;
+    font-family: "Nexa-Bold";
+  }
+  
+  .creditCard > div > span > img {
+    height: 16px;
+  }
+  
+  .selectBox {
+    width: 90%;
+    background-color: #fcfcfc;
+    border: 1px solid #e6e8ec;
+    border-radius: 12px;
+    padding: 12px;
+    font-family: "Nexa-Bold";
+    font-size: 14px;
+    margin: 0 !important;
+  }
+  
+  .diffCard {
+    border-radius: 90px;
+    border: 2px solid #e6e8ec;
+    padding: 12px 24px;
+    font-family: "Nexa-Bold";
+    font-size: 16px;
+    background-color: white;
+    width: 83%;
+  }
+  
+  .payBtn {
+    background: #3b71fe;
+    font-size: 16px;
+    color: white;
+    border-radius: 90px;
+    padding: 12px 0px;
+    font-family: "Nexa-Bold";
+    border: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    width: 70%;
+  }
+  
+  .paymentCard {
+    padding: 72px 96px;
+    border-radius: 7px;
+    background-color: #fcfcfd;
+    position: relative;
+    width: 544px;
+    border: 0 !important;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.2);
+    /* width: 100%; */
+  }
+  
+  .paymentCard h2 {
+    font-family: "Nexa-Bold";
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .formContainer {
+    /* margin-top: 50px; */
+  }
+  
+  .formLabel {
+    font-size: 12px;
+    color: #b1b5c3;
+    font-family: "Nexa-Bold";
+  }
+  
+  .formInp {
+    border: 2px solid #e6e8ec !important;
+    border-radius: 12px;
+    padding: 8px 16px;
+  }
+  
+  .formInp:focus {
+    box-shadow: none !important;
+  }
+  
+  .checkbox {
+    height: 24px;
+    width: 24px;
+    background-image: url("/images/addCardCheck.png") !important;
+    background-size: 60%;
+  }
+  
+  .checkbox:focus {
+    box-shadow: none;
+  }
+  
+  .checkboxField {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .checkboxField label {
+    font-size: 14px;
+    font-family: "Nexa-Bold";
+    position: relative;
+    top: 4px;
+  }
+  
+  .submitBtn {
+    background: #3b71fe;
+    border-radius: 90px;
+    font-family: "Nexa-Bold";
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 16px 33px;
+    text-decoration: none;
+  }
+  
+  .crossBtn {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: #fcfcfd;
+    border-radius: 50%;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777e90;
+    cursor: pointer;
+  }
+  
+  .paymentModal.modal.show .modal-dialog {
+    top: 0 !important;
+    border-width: 0 !important;
+    --bs-modal-border-width: 0 !important;
+  }
+  
+  .paymentModal {
+    border-width: 0 !important;
+  }
+  
+  
+  
+  @media screen and (max-width: 1366px) and (min-width: 1025px) {
+    .btnContainer {
+      width: 60%;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) and (min-width: 911px) {
+    .backHeader {
+      padding: 23px 30px;
+    }
+  
+    .paymentWrapper {
+      padding: 33px 30px;
+    }
+  
+    .btnContainer {
+      width: 100%;
+      margin: 30px 0px;
+    }
+  
+    .diffCard {
+      width: 100%;
+    }
+  
+    .selectBox {
+      width: 100%;
+    }
+  
+    .payBtn {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 912px) and (min-width: 230px) {
+    .backHeader {
+      padding: 23px 30px;
+    }
+  
+    .paymentWrapper {
+      flex-direction: column;
+      padding: 33px 30px;
+      gap: 2rem;
+    }
+  
+    .btnContainer {
+      width: 100%;
+      margin: 30px 0px;
+    }
+  
+    .diffCard {
+      width: 100%;
+    }
+  
+    .selectBox {
+      width: 100%;
+    }
+  
+    .payBtn {
+      width: 100%;
+    }
+  
+    .leftContainer {
+      padding: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 540px) and (min-width: 230px) {
+    .leftContainer > h1 {
+      font-size: 38px;
+    }
+  
+    .paymentOption > p {
+      font-size: 20px;
+    }
+  
+    .paymentCard {
+      padding: 20px 30px;
+      width: auto;
+    }
+  
+    .paymentCard h2 {
+      font-size: 30px;
+    }
+  }
+  
+  
+.btndiv{
+  text-align: end;
+  margin-top: 5rem;
+  background: #FAFAFA !important;
+}

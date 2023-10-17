@@ -1,0 +1,23 @@
+/* POP UP STYLING */
+.popup-text {
+  font-size: 22px !important;
+}
+.imageClass-popup {
+  border-radius: 50% !important;
+}
+.popup-confirm-button {
+  border-radius: 25px !important;
+  padding: 10px 34px !important;
+  font-weight: 600 !important;
+}
+.popup-confirm-button:first-child {
+  background-color: #3b71fe !important;
+}
+.swal2-actions {
+  width: 280px !important;
+  justify-content: space-between !important;
+}
+.swal2-popup {
+  height: 350px !important;
+  border-radius: 20px !important;
+}

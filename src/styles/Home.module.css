@@ -1,0 +1,975 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.logoDiv {
+  background: white;
+  z-index: 10;
+  /* position: fixed; */
+  width: 100%;
+}
+.checkIcons {
+  font-size: 150px;
+  color: #000;
+}
+
+.verificationText {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Nexa-Light";
+}
+
+.VerifyContainer {
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RLBorder {
+  border: 1px solid #e5e6eb !important;
+  border-left-color: transparent !important;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.bgSideImage {
+  background-image: url("/images/signup1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.vh75 {
+  height: 100vh;
+}
+
+.BLRadius {
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+  border-right: none;
+}
+
+.RLBorder {
+  border-left: none !important;
+}
+
+.heading {
+  color: white;
+  margin: auto;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 0 54px;
+}
+
+.vh25 {
+  height: 20vh;
+  display: flex;
+  background: black;
+  color: white;
+  margin: auto;
+}
+.rightDivTitle {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+.leftDiv {
+  height: 90vh;
+  /* margin-top: 60px; */
+  display: flex;
+  /* align-items: center; */
+}
+
+.rightDiv {
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  flex-direction: column;
+  height: calc(100vh - 74px);
+  justify-content: center;
+}
+
+.clientRightDiv {
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 22px;
+  max-width: 200px;
+  margin-left: 8px;
+  border-right: 1px solid rgba(0, 32, 104, 0.1);
+  padding-right: 14px;
+  margin-bottom: 22px;
+}
+
+.row {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.floatingLabel {
+  color: #9ea3ae;
+  text-transform: uppercase;
+  font-family: "Nexa-Bold";
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.passWordStrengthTiitle {
+  font-size: 14px;
+}
+
+.pageImage {
+  height: calc(80vh - 74px);
+  width: 100%;
+}
+
+.clientLabel {
+  font-family: "Nexa-Bold";
+}
+
+.clientpage1Image {
+  position: fixed;
+  bottom: 0;
+  max-width: 45%;
+}
+
+.modalContainer {
+  height: 100%;
+}
+
+.clentSelect {
+  font-family: "Nexa-Bold";
+}
+
+.PF2Img {
+  height: 87vh;
+}
+
+.PF4Img {
+  height: 79vh;
+}
+
+.greyInputBg {
+  background-color: #f9fafb !important;
+  border: 1px solid #e5e6eb;
+  font-family: "Nexa-Bold";
+  line-height: 25px !important;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2a2627;
+}
+
+.greyInputBg:focus {
+  border-color: #d3d4db !important;
+  box-shadow: none;
+}
+
+.desc {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgba(108, 114, 127, 1);
+  line-height: 24px;
+}
+
+.titleBox {
+  padding: 20px 0px 20px 0;
+}
+
+.loginDiv {
+  padding-top: 30px;
+}
+
+.customProgressStylng {
+  width: 68% !important;
+  border-radius: 2px !important;
+  height: 10px !important;
+  background-color: #f4f4f6 !important;
+}
+.passWordStrength {
+  color: #9ea3ae;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.customProgressBarStylng {
+  background-color: #a1e510 !important;
+}
+
+.loginDiv p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.SignupDiv {
+  margin: 1rem 0 0 0;
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.CRContainer {
+  margin-top: 30px;
+}
+
+.patternImg {
+  width: 170px;
+  height: auto;
+  bottom: 4%;
+  left: -9%;
+  position: absolute;
+}
+.hrLine {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.copyright {
+  color: #9ea3ae;
+  /* position: fixed; */
+  bottom: 0;
+  background-color: white;
+  z-index: 10;
+  /* width: 35%; */
+  width: 100%;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(158, 163, 174, 1);
+}
+
+.titleStyle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.checkbox {
+  height: 25px;
+  width: 20px;
+  border-color: rgba(229, 230, 235, 1);
+  position: relative;
+  text-align: center;
+}
+
+.checkIcon {
+  font-size: 18px;
+  position: absolute;
+  right: 3px;
+  bottom: 4px;
+  color: white;
+}
+
+.notificationText {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(108, 114, 127, 1);
+}
+
+.SignupButton {
+  margin-top: 121px !important;
+}
+
+.invalid,
+.invalid:focus {
+  border: 1px solid red !important;
+  color: red !important;
+}
+
+.invalid > .floatingLabel,
+.invalid:focus > .floatingLabel {
+  color: red !important;
+}
+
+.calenderIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.datePicker {
+  position: absolute;
+  top: 66px;
+  display: none;
+}
+
+.imageC {
+  /* height: 97%; */
+  width: 100%;
+  background-size: cover;
+}
+
+/* login page */
+
+.dateIcon {
+  background-color: #f9fafb;
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  border: 1px solid #e5e6eb;
+  height: 58px;
+}
+
+.eyeIcon {
+  font-size: 20px;
+  color: #9ea3ae;
+}
+
+.removeRightBorder {
+  border-right: none;
+}
+
+.bgLoginSideImage {
+  height: 100%;
+  background-image: url("/images/login.svg");
+  background-repeat: no-repeat;
+  background-size: 97% 100%;
+  background-position: center;
+  height: 100vh !important;
+}
+.bgPsychicImage {
+  background-image: url("/images/LoginBackground.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.btnImage {
+  margin-right: 20px;
+  position: relative;
+  bottom: 2px;
+}
+
+.warningsection {
+  font-size: 12px;
+  font-family: "Nexa-Bold";
+}
+
+.googleBtn {
+  border: 1px solid #e5e6eb;
+  font-weight: 600;
+}
+
+.fbBtn {
+  background-color: #3577e5;
+  color: white;
+  font-weight: 400;
+}
+
+.fbBtn:hover {
+  background-color: #3577e5;
+  color: white;
+}
+
+.loginText {
+  color: #9ea3ae;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  width: 200px;
+}
+
+.lines {
+  height: 10px;
+  border-top: 1px solid #9ea3ae;
+  width: 130px;
+}
+
+.loginTextWrapper {
+  margin-left: 3px;
+  margin-top: 35px;
+}
+
+.RBorder {
+  border-right: none !important;
+}
+
+.eyeBg {
+  background-color: #f9fafb !important;
+  border: 1px solid #e5e6eb;
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  cursor: pointer;
+}
+
+.eyeIcon {
+  font-size: 30px;
+}
+
+/* help us help you page */
+
+.bgHelperSideImage {
+  background-image: url("/images/helper.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.selectLabel {
+  font-size: 14px;
+  color: #192126;
+  opacity: 0.5;
+}
+
+.selectBg {
+  height: 56px;
+  background-color: #f9fafb !important;
+  border: 1px solid #e5e6eb;
+  line-height: 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.selectBg:focus {
+  border-color: #d3d4db !important;
+  box-shadow: none;
+}
+
+.helperLogoWrapper {
+  height: 80px;
+  width: 80px;
+  background-color: #d5e0da;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.profileBg {
+  background-color: #f9fafb;
+}
+
+.formtag {
+  padding: 0px 136px 50px 0px;
+}
+
+.inputHeight {
+  height: 120px;
+}
+
+.helperLogoWrapper {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #d5e0da;
+}
+.backArrowContainer {
+  display: none;
+}
+
+.forgotPassword {
+  display: none;
+}
+
+.bgPasswordSideImage {
+  background-image: url("/images/password-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.GPbtn {
+  background-color: #d5e0da;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bgLastImage {
+  background-image: url("/images/last.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.toggleBtn {
+  height: 22px !important;
+  width: 35px !important;
+  /* background-color: #fff; */
+}
+
+.toggleBtn:checked {
+  background-color: #000;
+  border-color: #fff;
+}
+
+.toggleBtn:not(:checked) {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
+
+.form-switch .form-check-input:focus {
+  background-color: #000;
+}
+
+.checkboxLabel,
+.checkboxLabel a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+.terms {
+  font-size: 14px;
+  color: #000;
+  margin-left: 5px;
+}
+
+.checkboxLabel {
+  margin-left: 10px;
+  position: relative;
+  font-family: "Nexa-Light";
+  top: 3px;
+}
+
+.toggleBtn:focus {
+  box-shadow: none;
+  /* border: 1px solid #000; */
+}
+
+.thankyouTitle {
+  font-size: 36px;
+  font-weight: 275;
+  margin-bottom: 8px;
+  line-height: 48px;
+}
+.thankyouDesc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c727f;
+}
+
+.datepickerBtn:active {
+  border: 1px solid #e5e6eb !important;
+}
+
+/** Mobile */
+@media screen and (max-width: 767px) {
+  /* .formWrapper {
+    margin-top: 3rem !important;
+  } */
+  .logo {
+    margin-left: 20px;
+  }
+  .titleBox {
+    text-align: center;
+  }
+
+  .rightDiv {
+    position: relative;
+    display: none !important;
+  }
+  .clientRightDiv {
+    position: relative;
+    display: none !important;
+  }
+  .leftDiv {
+    margin-top: 0px;
+
+    padding-top: 1rem !important ;
+    height: 86vh !important;
+  }
+  .backArrowContainer {
+    display: block;
+  }
+
+  .patternImg {
+    width: 145px;
+    height: auto;
+    bottom: 3%;
+  }
+
+  .formDiv {
+    padding: 10px 24px;
+  }
+  .clientformDiv {
+    padding: 10px 24px;
+  }
+
+  .heading {
+    padding: 0 50px 0 100px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .backArrowContainer {
+    padding: 0px 24px;
+    margin-bottom: 39px;
+    margin-top: 33px;
+  }
+  .backArrowIcon {
+    font-size: 24px;
+  }
+}
+
+/** Tablet and Laptop */
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .heading {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 0 20px 0 100px;
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .formDiv {
+    padding: 10px 70px;
+    margin-top: 0;
+  }
+  .clientformDiv {
+    padding: 10px 70px;
+    margin-top: 0;
+  }
+}
+
+/* @media (max-width: 1200px) {
+  .formWrapper {
+    margin-top: auto;
+  }
+} */
+
+/** Laptop */
+@media screen and (min-width: 1200px) {
+  .heading {
+    font-size: 34px;
+    line-height: 34px;
+  }
+
+  .formDiv {
+    padding: 10px 120px;
+    margin-top: 0;
+  }
+  .clientformDiv {
+    padding: 10px 120px;
+    margin-top: 0;
+  }
+
+  .logo {
+    margin-left: 120px;
+  }
+}
+
+/** Desktop */
+@media screen and (min-width: 1440px) {
+  .heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .formDiv {
+    padding: 10px 10px 10px 136px;
+  }
+  .clientformDiv {
+    padding: 10px 134px 10px 136px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .PF2Img {
+    height: 89vh;
+  }
+
+  .PF4Img {
+    height: 80vh;
+  }
+}
+
+/** WQHD Desktop */
+@media screen and (min-width: 2200px) {
+  .heading {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .formDiv {
+    /* padding: 50px 280px; */
+    margin-top: 0;
+  }
+  .clientformDiv {
+    margin-top: 0;
+  }
+
+  /* .logo {
+    margin-left: 280px;
+  } */
+
+  .patternImg {
+    width: 270px;
+    height: auto;
+    bottom: 4%;
+    left: -10%;
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .PF4Img {
+    height: 82vh;
+  }
+}
+
+@media screen and (min-width: 2256px) {
+  .PF2Img {
+    height: 93vh;
+  }
+
+  .PF4Img {
+    height: 84vh;
+  }
+}
+
+/** 4k Desktop */
+@media screen and (min-width: 2800px) {
+  .heading {
+    font-size: 80px;
+    line-height: 80px;
+    padding: 0 180px 0 180px;
+  }
+
+  .formDiv {
+    /* padding: 50px 440px; */
+    margin-top: 0;
+  }
+  .clientformDiv {
+    margin-top: 0;
+  }
+
+  /* .logo {
+    margin-left: 440px;
+  } */
+
+  .patternImg {
+    width: 370px;
+    height: auto;
+    bottom: 4%;
+    left: -9%;
+    position: absolute;
+  }
+}
+
+@media (max-width: 1132px) {
+  .checkcontainer {
+    flex-direction: column;
+  }
+
+  .formtag {
+    padding: 0;
+  }
+  .logoDiv {
+    position: relative;
+  }
+  .formDiv {
+    padding: 24px 24px 24px 26px;
+    margin-top: 0;
+  }
+  .clientformDiv {
+    padding: 24px 24px 24px 26px;
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 27px !important;
+  }
+  .checksData {
+    width: 100%;
+    margin: 6px !important;
+  }
+  .copyright {
+    width: 100%;
+    margin-bottom: 0 !important;
+  }
+  .main {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .SignUpButtonContainer {
+    position: relative;
+    width: 100% !important;
+    margin: 0;
+    margin-top: 50px !important;
+    bottom: 20px;
+    margin-bottom: 40px;
+  }
+
+  .SignupDiv {
+    padding: 0 !important;
+  }
+
+  .SignUpButtonWrapper {
+    padding: 0 !important;
+  }
+  .SignupDiv {
+    display: none;
+  }
+  .loginBackGround {
+    background-image: url("/images/SignupMobilepage7.svg");
+  }
+  .rightDiv {
+    position: relative;
+    display: none !important;
+  }
+  .clientRightDiv {
+    position: relative;
+    display: none !important;
+  }
+  .forgotPassword {
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .leftDiv {
+    align-items: start;
+    width: 100%;
+    height: 86vh;
+    margin-top: 0px;
+  }
+  .w50 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  .formtag {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1132px) {
+  .formDiv {
+    padding: 24px 24px 24px 26px;
+    margin-top: 0px;
+  }
+  .clientformDiv {
+    padding: 24px 24px 24px 26px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1132px) and (min-width: 693px) {
+  .loginText {
+    font-size: 14px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 692px) and (min-width: 575px) {
+  .loginText {
+    font-size: 12px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 575px) and (min-width: 450px) {
+  .loginText {
+    font-size: 12px;
+    width: 150px;
+  }
+
+  .lines {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 450px) and (min-width: 335px) {
+  .loginText {
+    font-size: 12px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .loginText {
+    font-size: 13px;
+    width: 520px;
+  }
+
+  .fbBtn,
+  .googleBtn {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .displaySB {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .bgLoginSideImage {
+    background-size: contain;
+    background-position: 30% 30%;
+  }
+
+  .bgPasswordSideImage,
+  .bgLastImage {
+    background-position: 50% 30%;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 3200px) {
+  .PF2Img {
+    height: 95vh;
+  }
+
+  .PF4Img {
+    height: 86vh;
+  }
+}
+
+
+
+/* loader css implement all pages loader response */
+
+.loaderComp{
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 21; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+   background-color: rgba(255, 255, 255,0.5);
+  /* opacity: 0.5; */
+ /* background-color: rgba(131, 128, 128, 0.5); */
+  /* backdrop-filter: blur(15px); */
+}
+
+/* .loaderComp{
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 21;
+} */

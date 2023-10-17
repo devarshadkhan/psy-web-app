@@ -1,0 +1,229 @@
+.bodyContainer {
+    height: calc(100vh - 90px);
+    background: linear-gradient(to top, #fff 0%, #fff 60%, #1c2634 40%);
+    padding: 0px 64px;
+}
+
+.Container {
+    background-color: #fff;
+    margin: 0px 126px;
+    border-radius: 16px;
+}
+
+.containerHeading {
+    padding: 32px 16px 32px 48px;
+    border-bottom: 2px solid #FAFAFA;
+}
+
+.containerHeading>h2 {
+    font-size: 24px;
+    font-family: 'Nexa-Bold';
+    margin-bottom: 0;
+}
+
+.sidebarContainer {
+    width: 30%;
+    padding: 16px;
+}
+
+.mainContainer {
+    width: 70%;
+    background-color: #FAFAFA;
+    padding: 30px;
+    height: 100vh;
+    margin-bottom: 100px;
+    border-bottom-right-radius: 16px;
+}
+
+.mainContainer>div {
+    background-color: #fff;
+    padding: 24px;
+    height: 90%;
+    position: relative;
+    border-radius: 16px;
+}
+
+.mainContainerHeading>h3 {
+    font-size: 18px;
+    font-family: 'Nexa-Bold';
+    margin: 0;
+    display: inline;
+}
+
+.mainContainer>div>p {
+    color: #718096;
+    font-size: 14px;
+    margin-top: 12px;
+    font-family: 'Nexa-Bold';
+}
+
+.formContainer {
+    padding: 32px 0px 24px 0px;
+}
+
+.formLabel {
+    font-size: 16px;
+    font-family: 'Nexa-Bold';
+    margin-bottom: 1rem;
+}
+
+.formLabel>span {
+    font-size: 16px;
+}
+
+.formInput {
+    border: none;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Nexa-Bold';
+}
+
+.formInput:focus {
+    box-shadow: none;
+    border: none;
+    background-color: #FAFAFA;
+}
+
+.nextBtn {
+    font-size: 14px;
+    font-family: 'Nexa-Bold';
+    border-radius: 55px;
+    border: 1px solid black;
+    position: absolute;
+    right: 29px;
+    bottom: 29px;
+    padding: 13px;
+    background-color: #fff;
+}
+
+.tbtitleIcon {
+    width: 15px;
+    margin-left: 7.5px;
+    color: #6c7278;
+    height: 15px;
+}
+
+.imgContainer {
+    width: 65%;
+    background-color: #E8E8E8;
+    border-radius: 12px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer>div>img {
+    height: auto;
+    width: fit-content;
+}
+
+.midContainers {
+    align-items: center;
+}
+
+.midContainers > div {
+    width: 50%;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    height: fit-content;
+}
+
+.midContainers > div > h6, .bottomContainer > h6 {
+    font-size: 16px;
+    font-family: 'Nexa-Bold';
+}
+
+.midContainers > div > p, .bottomContainer > p {
+    font-size: 12px;
+    color: #718096;
+    margin: 0;
+}
+
+.midContainers > div:nth-child(1) {
+    border: 1px solid black;
+}
+
+.bottomContainer {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    height: fit-content;
+}
+
+@media screen and (min-width: 2256px) and (max-width: 3840px) {
+    .mainContainer {
+        height: calc(100vh - 500px);
+    }
+  }
+  
+  @media screen and (max-width: 1024px) and (min-width: 230px) {
+    .pageContainer {
+      flex-direction: column;
+    }
+  
+    .mainContainer {
+      width: 100%;
+    }
+  
+    .sidebarContainer {
+      width: 100%;
+    }
+  
+    .bodyContainer {
+        padding: 0;
+    }
+
+    .Container {
+        margin: 0;
+    }
+
+    .formInput {
+        padding: 10px;
+      }
+  }
+  
+  @media screen and (max-width: 540px) and (min-width: 230px) {
+  
+    .mainContainer > div > p {
+      font-size: 10px;
+    }
+  
+    .formLabel {
+      font-size: 10px;
+      margin-bottom: 0.5rem;
+    }
+    
+    .formLabel>span { 
+      font-size: 10px;
+    }
+  
+    .formContainer {
+      padding: 0px;
+    }
+  
+    .nextBtn {
+      font-size: 11px;
+      padding: 8px 13px;
+    }
+  
+    .formInput {
+      padding: 7px;
+    }
+
+    .mainContainerHeading > h3 {
+        font-size: 14px;
+    }
+
+    .midContainers {
+        flex-direction: column;
+    }
+
+    .midContainers > div {
+        width: 100%;
+    }
+  }

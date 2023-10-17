@@ -1,0 +1,160 @@
+.rightWrapper {
+    margin-right: 50px;
+}
+
+.header > h1 {
+    font-size: 48px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    margin: 0;
+}
+
+.header > p {
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #777E90;
+}
+
+.appointmentWith > p {
+    font-size: 12px;
+    color: #777E90;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin: 0;
+}
+
+.appointmentWith > p > img {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.appointmentWith > p > span {
+    font-size: 12px;
+    font-family: 'Poppins';
+    color:#23262F;
+    font-weight: 600;
+}
+
+.section {
+    border-top: 1px solid #E6E8EC;
+    border-bottom: 1px solid #E6E8EC;
+    padding: 30px 0px;
+    margin: 30px 0px 30px 0px;
+    width: 85%;
+}
+
+.section > div {
+    width: 41%;
+}
+
+.section > div:nth-child(1) > span {
+    border: 2px solid #92A5EF;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.section > div:nth-child(2) > span {
+    border: 2px solid #FA8F54;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.section > div > div > span {
+    color: #777E90;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section > div > div > h6 {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.details > div > p {
+    color: #777E90;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    
+}
+
+.contentContainer > h6 {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    text-align: left;
+}
+
+.contentContainer {
+    width: 50%;
+}
+
+.bookingDetails > h2 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #3B71FE;
+    color: white;
+    border-radius: 90px;
+    border: none;
+    outline: none;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    width: fit-content;
+    margin: 32px 0px;
+}
+
+@media screen and (max-width: 912px) and (min-width: 540px) {
+    .section {
+        width: 100%;
+    }
+
+    .details > div:nth-child(1) {
+        width: 60%;
+    }
+
+    .details > div:nth-child(2) {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 540px) and (min-width: 320px) {
+    .section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .section > div {
+        width: 100%;
+    }
+
+    .details {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .details > div {
+        width: 100%;
+    }
+
+    .contentContainer > h6 {
+        margin-left: 1.9rem;
+    }
+
+    .btn {
+        margin: 0px;
+        width: 100%;
+    }
+}

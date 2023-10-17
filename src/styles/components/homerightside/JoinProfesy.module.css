@@ -1,0 +1,89 @@
+.refferCard {
+  background-color: #2a2627;
+  padding: 24px 20px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.RCHeader {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins-Black";
+  color: white;
+}
+
+.RCContent {
+  color: #9ea3ae;
+  font-size: 14px;
+  font-family: "Poppins-Regular";
+  font-weight: 400;
+}
+
+.RCBtn {
+  background-color: #d5e0da;
+  color: black;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-family: "Nexa-Bold";
+}
+.RCBtn:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-family: "Nexa-Bold";
+}
+.RCBtn:focus-visible {
+  background-color: #d5e0da;
+  color: black;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-family: "Nexa-Bold";
+}
+.RCBtn:active {
+  background-color: #d5e0da !important;
+  color: black;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-family: "Nexa-Bold";
+}
+
+.groupImg {
+  position: absolute;
+  right: 20px;
+  height: 150px;
+  bottom: -50px;
+}
+
+@media screen and (min-width: 1600px) {
+  .refferCard {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .refferCard {
+    padding: 15px;
+  }
+
+  .RCContent {
+    font-size: 12px;
+  }
+
+  .RCBtn {
+    font-size: 12px;
+    padding: 3px 5px;
+  }
+
+  .groupImg {
+    height: 90px;
+    bottom: -30px;
+  }
+
+  .RCHeader {
+    font-size: 16px;
+    margin: 0;
+  }
+}

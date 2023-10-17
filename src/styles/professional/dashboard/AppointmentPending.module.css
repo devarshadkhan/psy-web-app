@@ -1,0 +1,156 @@
+.bodyContainer {
+  /* height: calc(100vh - 90px); */
+  height: 520px;
+  max-height: 100%;
+  background: linear-gradient(to top, #fff 0%, #fff 54%, #1c2634 46%);
+  padding: 0 63px;
+}
+.bodyWrapper {
+  width: 100%;
+  display: flex;
+}
+
+.checkListContainer {
+  width: 20%;
+}
+
+.dataBodyContainer {
+  margin: 0 28px;
+  width: 80%;
+}
+
+.calenderContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.CustomDatePickerInput {
+  background: rgba(255, 255, 255, 0.07);
+  width: fit-content;
+  padding: 12px 18px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.CustomDatePickerInputIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.CustomDatePickerInputText {
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+  color: #fff;
+}
+
+@media screen and (max-width: 1600px) {
+  .checkListContainer {
+    width: 30%;
+  }
+
+  .dataBodyContainer {
+    margin: 0 28px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1220px) and (min-width: 200px) {
+  .bodyContainer {
+    padding: 0;
+  }
+  .CustomDatePickerInput {
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+
+  .checkListContainer {
+    margin-bottom: 20px;
+  }
+
+  .calenderContainer {
+    position: relative;
+  }
+  .checkListContainer {
+    width: 100%;
+  }
+
+  .dataBodyContainer {
+    margin: 0;
+    width: 100%;
+  }
+  .bodyWrapper {
+    width: 100%;
+    display: block;
+    padding: 28px;
+  }
+}
+
+.nodata {
+  font-size: 4rem;
+  font-family: 'Nexa-Bold';
+  margin-top: 13rem;
+  text-align: center;
+  color: #777e9047;
+}
+
+@media (max-width: 575.98px) { 
+  .nodata {
+    font-size: 4rem;
+    font-family: 'Nexa-Bold';
+    margin-top: 10rem;
+    text-align: center;
+    color: #777e9047;
+  }
+ }
+
+
+@media (max-width: 767.98px) { 
+  .nodata {
+    font-size: 4rem;
+    font-family: 'Nexa-Bold';
+    margin-top: 10rem;
+    text-align: center;
+    color: #777e9047;
+  }
+ }
+
+
+@media (max-width: 991.98px) { 
+  
+ }
+
+
+@media (max-width: 1199.98px) { 
+  
+  .bodyContainer {
+    /* height: calc(100vh - 90px); */
+    height: 700px;
+    max-height: 100%;
+    background: linear-gradient(to top, #fff 0%, #fff 54%, #1c2634 46%);
+    padding: 0 63px;
+  }
+ }
+
+
+@media (max-width: 1399.98px) { 
+  .nodata {
+    font-size: 4rem;
+    font-family: 'Nexa-Bold';
+    margin-top: 15rem;
+    text-align: center;
+    color: #777e9047;
+  }
+
+  .bodyContainer {
+    /* height: calc(100vh - 90px); */
+    height: 600px;
+    max-height: 100%;
+    background: linear-gradient(to top, #fff 0%, #fff 54%, #1c2634 46%);
+    padding: 0 63px;
+  }
+
+ }

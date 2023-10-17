@@ -1,0 +1,114 @@
+.headerTableRow {
+  background: #edf1f3;
+}
+.headerTableData {
+  font-size: 16px;
+  color: #6c7278;
+  font-family: "Nexa-Bold";
+  padding: 12px !important;
+  gap: 6px;
+  /* min-width: 200px; */
+}
+
+.paymentDeducted {
+  color: crimson !important;
+}
+.paymentReceived {
+  color: #1ad598 !important;
+}
+
+.statusWrapper {
+  padding: 6px 20px;
+  background-color: rgba(236, 248, 240, 0.8);
+  color: rgba(28, 140, 110, 1);
+  font-family: "Manrope-Bold";
+  width: fit-content;
+  font-size: 14px;
+}
+.buisnessName {
+  font-family: "Manrope-SemiBold";
+  font-size: 18px;
+}
+.buisnessType {
+  font-family: "Manrope-Medium";
+  font-size: 14px;
+  color: #acb5bb;
+}
+
+.bodyTableData {
+  gap: 6px;
+  color: black;
+  /* min-width: 200px; */
+  text-align: left;
+  vertical-align: middle;
+  padding: 19.7px 0.5rem !important;
+  font-size: 18px;
+  font-family: "Manrope-SemiBold";
+}
+
+.customCheck {
+  width: 20px !important;
+  height: 20px !important;
+  outline: none !important;
+  border: 1.5px solid #6c7278 !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+.actionContainer {
+  padding: 8px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.nameContainer {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+  align-items: center;
+}
+.buisnessNameWrapper {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+}
+
+.custombody {
+  background-color: #fff;
+}
+
+.buisnessLogoContainer {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #f4f4f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transactionType {
+  width: 96px;
+  font-size: 12px;
+  padding: 6px 4px;
+  background-color: #edf1f3;
+  color: #6c7278;
+  font-family: "Manrope-Bold";
+  text-align: center;
+  border-radius: 55px;
+}
+
+@media screen and (max-width: 1200px) {
+  .headerTableData {
+    min-width: 200px;
+  }
+
+  .actionheader,
+  .amountheader,
+  .statusHeader,
+  .idHeader {
+    min-width: 130px !important;
+  }
+  .checkHeader {
+    min-width: 55px;
+  }
+}

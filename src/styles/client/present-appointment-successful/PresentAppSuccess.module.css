@@ -1,0 +1,35 @@
+.wrapper {
+    padding: 80px 160px;
+}
+
+.imgWrapper {
+    margin: 100px 50px;
+}
+
+.BGImage {
+    height: 100%;
+    width: 80%;
+}
+
+@media screen and (max-width: 3840px) and (min-width: 1280px) {
+    .wrapper {
+        padding: 30px 160px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1024px) {
+    .wrapper {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 912px) and (min-width: 320px) {
+    .wrapper {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .imgWrapper {
+        display: none;
+    }
+}

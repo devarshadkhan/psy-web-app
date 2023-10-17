@@ -1,0 +1,241 @@
+/* security css page */
+/* main container */
+.cntr_main{
+  padding: 0 160px;
+}
+/* main container */
+.edit_security {
+  padding: 6rem 0 2rem;
+}
+.edititing_profile {
+  padding: 0 3rem 3rem;
+}
+.bottom_image {
+  margin: 4rem 0 0;
+}
+.bottom_social_image {
+  margin: 1rem 0 0;
+}
+.edititing_profile .edit_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.edititing_profile .edit_name h2 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #23262f;
+}
+
+.security_info {
+  margin-top: 4rem;
+}
+.security_info h6 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #23262f;
+}
+
+.security_info .updt_password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-top: 1rem;
+  /* text-align: center; */
+}
+
+/* .security_info .updt_passwords:nth-child(1) {
+  text-align: start;
+} */
+.updt_flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.security_info .updt_passwords {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-top: 2rem;
+  width: 46%;
+  /* text-align: center; */
+}
+.Agent_name {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  line-height: 24px !important;
+  color: #000000 !important;
+  width: 80%;
+}
+
+.security_info .updt_passwords p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777e91;
+}
+.security_info .updt_password h6{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.security_info .updt_password p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777e91;
+  margin: 0;
+}
+.security_info .updt_passwords button {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 90px;
+  background-color: transparent;
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #23262f;
+  
+}
+.security_info .updt_password button {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 90px;
+  background-color: transparent;
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #23262f;
+  width: 168px ;
+}
+
+.security_info img {
+  width: 100%;
+  /* margin: 3rem 0; */
+}
+
+@media (max-width: 575.98px) {
+  .security_info .updt_passwords{
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cntr_main{
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .cntr_main{
+    padding: 0 30px;
+  }
+  .edititing_profile {
+    padding: 0 0rem 3rem;
+  }
+  .edit_security {
+    padding: 3rem 0 2rem;
+  }
+  .security_info {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .cntr_main{
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .cntr_main{
+    padding: 0 30px;
+  }
+}
+
+
+
+
+.RBorder {
+  border-right: none !important;
+}
+
+.greyInputBg {
+  background-color: #f9fafb !important;
+  border: 1px solid #e5e6eb;
+  font-family: "Nexa-Bold";
+  line-height: 25px !important;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2a2627;
+}
+
+.greyInputBg:focus {
+  border-color: #d3d4db !important;
+  box-shadow: none;
+}
+
+.invalid,
+.invalid:focus {
+  border: 1px solid red !important;
+  color: red !important;
+}
+
+.invalid > .floatingLabel,
+.invalid:focus > .floatingLabel {
+  color: red !important;
+}
+.eyeBg {
+  background-color: #f9fafb !important;
+  border: 1px solid #e5e6eb;
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  cursor: pointer;
+}
+
+.eyeIcon {
+  font-size: 30px;
+}
+
+
+
+.customProgressStylng {
+  width: 68% !important;
+  border-radius: 2px !important;
+  height: 10px !important;
+  background-color: #f4f4f6 !important;
+}
+.passWordStrength {
+  color: #9ea3ae;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.customProgressBarStylng {
+  background-color: #a1e510 !important;
+}

@@ -1,0 +1,92 @@
+.mainCardContainer {
+  height: 160px;
+  width: 337px;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.bgtype1 {
+  background-image: url("/images/PaymentCards/Cardbg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgtype2 {
+  background-image: url("/images/PaymentCards/Cardbg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.bgtype3 {
+  background-image: url("/images/PaymentCards/Cardbg3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgtype4 {
+  background-image: url("/images/PaymentCards/Cardbg4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topSection {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.cardProvider {
+  color: white;
+  font-family: "Goodwine";
+  font-size: 14px;
+}
+
+.cardType {
+  margin-left: auto;
+}
+
+.cardType > svg {
+  font-size: 58px;
+
+  color: white;
+}
+
+.middleSection {
+  font-size: 20px;
+  font-family: "Nexa-Bold";
+  color: white;
+  margin-top: 21px;
+  width: 100%;
+}
+
+.bottomSection {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.nameLabel {
+  margin-bottom: 0;
+  color: rgba(237, 241, 243, 0.6);
+  font-size: 14px;
+}
+.name {
+  margin-bottom: 0;
+  font-family: "Nexa-Bold";
+  color: white;
+  font-size: 16px;
+}
+
+.expDate {
+  margin-bottom: 0;
+  font-family: "Nexa-Bold";
+  color: white;
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .mainCardContainer {
+    width: 100%;
+  }
+  
+}

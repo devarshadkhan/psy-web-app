@@ -1,0 +1,26 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconContainer {
+    position: relative;
+    margin: 31px 0px 0px 0px;
+    padding: 9px;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #8083A3;
+}
+
+.border {
+    border: 1px solid #ECEEF5;
+    border-radius: 8px;
+}
+
+.notification {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+}

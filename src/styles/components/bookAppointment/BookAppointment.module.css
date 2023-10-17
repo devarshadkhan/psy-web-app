@@ -1,0 +1,333 @@
+.container {
+    border-radius: 24px;
+    color:#FCFCFD;
+    box-shadow: 0px 40px 64px -32px #0F0F0F1A;
+    background: linear-gradient(0deg, #FCFCFD, #FCFCFD), linear-gradient(83.59deg, #FCFCFD 36.52%, rgba(252, 252, 253, 0.83) 98.8%);
+    padding: 0px 40px;
+}
+
+.time > div {
+    padding: 30px 0px;
+    color: #6C727F;
+}
+
+.FNLink {
+    font-size: 14px;
+    font-family: 'Nexa-Bold'; 
+    color: #777E90;
+    text-decoration: none;
+}
+
+.FNLink:hover {
+    color: #777E90;
+}
+
+.activeLink {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.hrLine {
+    margin: 0px 36px;
+    margin: 0;
+    background: linear-gradient(grey, white)
+}
+
+.section {
+    padding: 20px 26px;
+    cursor: pointer;
+}
+
+.sectionWrapper1, .sectionWrapper2 {
+    width: 20%;
+}
+
+.sectionWrapper3 {
+    background-color:#3B71FE;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    cursor: pointer;
+}
+
+.SearchIcon {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.section > div > h5 {
+    font-size: 24px;
+    font-family: 'Nexa-Bold';
+    color: #23262F;
+}
+
+.section:hover {
+    box-shadow: 0px 64px 64px -48px #0f0f0f;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.section > div > span {
+    color: #777E90;
+    font-size: 16px;
+}
+
+.secContainer {
+    padding: 20px;
+    column-gap: 2.3rem;
+}
+
+.searchImg {
+    height: 64px;
+    width: 64px;
+    margin-top: 20px;
+}
+
+.DDList {
+    padding: 24px 15px;
+    border-radius: 24px;
+    background-color: #FCFCFD;
+    border: none;
+    box-shadow: 0px 40px 32px -24px #0F0F0F1F;
+    width: 30%;
+}
+
+.DDList li{
+    padding: 15px 7px;
+}
+
+.DDList li:hover {
+    background-color: #F4F5F6;
+    border-radius: 12px;
+    cursor: pointer;
+} 
+
+.DDList li:hover .listItem {
+    color: #23262F;
+}
+
+.DDList li:hover .iconContainer {
+    border: none;
+    background-color: white;
+}
+
+.iconContainer {
+    border: 1px solid #E6E8EC;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.listItem {
+    color: #777E90;
+    font-size: 16px;
+    font-family: 'Nexa-Bold';
+    margin: 0px 10px;
+}
+
+.selectedListItem {
+    background-color: #23262F;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.selectedListItem > span {
+    color: white;
+}
+
+.calenderContainer {
+    position: absolute;
+    bottom: 170px;
+}
+
+.outside {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    background-color: #3B71FE;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.DDmintList {
+    height: 230px;
+    overflow-y: scroll;
+    padding: 24px 15px;
+    border-radius: 24px;
+    background-color: #FCFCFD;
+    border: none;
+    box-shadow: 0px 40px 32px -24px #0F0F0F1F;
+    width: 30%;
+}
+
+.DDmintList li{
+    padding: 12px 7px;
+}
+
+.DDmintList li:hover {
+    background-color: #23262F;
+    border-radius: 24px;
+    cursor: pointer;
+} 
+
+.DDmintList li:hover .listItem {
+    color: #E6E8EC;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+.active a {
+    color: black;
+}
+
+.calendarWrapper {
+    width: 100% !important;
+}
+
+.calendarWidth {
+    width: 100% !important;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1599px) {
+    .section {
+        padding: 20px 5px;
+        justify-content: center;
+    }
+
+    .secContainer {
+        padding: 20px;
+    }
+
+    .section > div > span {
+        font-size: 13px;
+    }
+
+    .sectionWrapper1, .sectionWrapper2 {
+        width: 18%;
+    } 
+
+    .DDList {
+        width: 50%;
+    }
+
+    .section > div > h5 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 500px) {
+
+    .sectionWrapper1, .sectionWrapper2 {
+        width: 35% !important;
+    }
+
+    .secContainer {
+        padding: 20px 0px;
+    }
+
+    .section {
+        padding: 24px 0px;
+    }
+
+    .searchImg {
+        height: 44px;
+        width: 44px;
+        margin-top: 50px;
+    }
+
+    .calenderContainer {
+        right: 30px;
+    }
+
+    .DDList {
+        width: 50%;
+    }
+
+    .DDmintList {
+        width: 40%;
+    }
+
+    .outside {
+        top: 10px;
+        right: 60px;
+    }
+    
+    .section {
+        padding: 20px 13px;
+    }
+
+    .time > div {
+        padding: 23px 0px;
+    }
+}
+
+@media screen and (max-width: 540px) and (min-width: 250px) {
+    .sectionWrapper1, .sectionWrapper2 {
+        width: 45% !important;
+    }
+
+    .section > div > h5 {
+        font-size: 18px;
+    }
+    .secContainer {
+        padding: 24px 0px;
+    }
+
+    .section {
+        padding: 20px 13px;
+    }
+
+    .searchImg {
+        height: 50px;
+        width: 50px;
+        margin-top: 50px;
+    }
+
+    .DDList {
+        width: 80%;
+    }
+
+    .DDmintList {
+        width: 60%;
+    }
+
+    .listItem {
+        font-size: 12px;
+    }
+
+    .time > div {
+        padding: 23px 0px;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+    .sectionWrapper1, .sectionWrapper2 {
+        width: 100% !important;
+    }
+
+    .section > div > h5 {
+        font-size: 18px;
+    }
+
+    .calenderContainer {
+        left: 12%;
+    }
+}
+
+
+@media screen and (min-width: 1920px) and (max-width: 3199px) {
+    .calenderContainer {
+        left: 500px;
+    }
+}
+
+@media screen and (min-width: 3200px) and (max-width: 3840px) {
+    .calenderContainer {
+        left: 800px;
+    }
+}

@@ -1,0 +1,264 @@
+.bodyContainer {
+    height: calc(100vh - 90px);
+    background: linear-gradient(to top, #fff 0%, #fff 60%, #1c2634 40%);
+    padding-left: 63px;
+  }
+  
+  .walletContainer {
+    width: 100%;
+    display: flex;
+  }
+  
+  .paymentInfoContainer {
+    margin: 0 37.5px;
+    width: 20%;
+    background: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+  }
+  
+  .tbtitleContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  .tbtitleContainerChart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tbtitle {
+    font-family: "Nexa-Bold";
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .tbtitleIcon {
+    width: 15px;
+    margin-left: 7.5px;
+    color: #6c7278;
+    height: 15px;
+  }
+  
+  .profesyContainer {
+    /* padding: 0px 24px; */
+    background-color: #fff;
+    border-radius: 16px;
+    width: fit-content;
+  }
+  
+  .outlinedBtn {
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 24px;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    border: 1px solid #dce4e8;
+    border-radius: 55px;
+    font-size: 16px;
+    font-family: "Nexa-Bold";
+    cursor: pointer;
+  }
+
+  .updatePinContainer {
+    padding: 20px;
+    border-radius: 16px;
+    position: relative;
+  }
+
+  .updatePinContainer > div {
+    padding: 35px;
+  }
+
+  .updatePinContainer .closeBtn {
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .updatePinContainer > div > h3 {
+    font-size: 32px;
+    font-family: 'Nexa-Bold';
+  }
+
+  .updatePinContainer > div > p {
+    color: #6C7278;
+    font-size: 14px;
+  }
+
+  .inputGroup {
+    width: 100%;
+  }
+
+  .inputGroup input {
+    width: 66px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #F9FAFB;
+    border: 1px solid #E5E6EB;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .updatePinContainer > div > button {
+    background-color: #217EFD;
+    color: white;
+    padding: 12px 24px;
+    size: 16px;
+    font-family: 'Nexa-Bold';
+    width: 100%;
+    border-radius: 55px;
+    outline: none;
+    border: none;
+  }
+  
+  .chartWrapper {
+    padding: 24px;
+    background: #fff;
+    border-radius: 16px;
+  }
+  
+  .erningInfoContainer {
+    width: 80%;
+  }
+  
+  .chartTopSection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .formLabel {
+    font-size: 12px;
+    color: #ACB5BB;
+    font-family: 'Nexa-Bold';
+  }
+
+  .formInput {
+    padding: 20px 24px;
+    border-radius: 16px;
+    border: 1px solid #DCE4E8;
+    font-size: 14px;
+    font-family: 'Nexa-Bold';
+    color: #1A1C1E;
+  }
+  
+  .formInput:focus {
+    box-shadow: none;
+    border-color: #DCE4E8;
+  }
+
+  .fieldContainer > div {
+    width: 32%;
+  }
+
+  .btnContainer > button {
+    border-radius: 55px;
+    font-size: 16px;
+    font-family: 'Nexa-Bold';
+    padding: 12px 62px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .btnContainer > button:nth-child(1) {
+    border: 1px solid #ACB5BB;
+    background-color: white;
+    color: #1A1C1E;
+  }
+
+  .btnContainer > button:nth-child(2) {
+    background-color:#217EFD;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .bodyContainer {
+      padding-left: 0px;
+    }
+    .cardsWrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .walletContainer {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+    .paymentInfoContainer {
+      width: 100% !important;
+      padding: 20px;
+    }
+    .chartTopSection {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .profesyContainer {
+      padding: 0;
+      width: 100%;
+      margin-top: 20px;
+    }
+    .erningInfoContainer {
+      width: 100% !important;
+    }
+    .chartWrapper {
+      margin: 0;
+    }
+    .paymentInfoContainer {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+    .profesyIconatiner {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .profesyIconatiner > div {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 540px) and (min-width: 230px) {
+    .fieldContainer {
+      flex-direction: column; 
+    }
+
+    .fieldContainer > div {
+      width: 100%;
+    }
+
+    .btnContainer {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 450px) and (min-width: 230px) {
+    .updatePinContainer > div > h3 {
+      font-size: 23px;
+    }
+
+    .inputGroup > input {
+      height: 40px;
+      width: 46px;
+    }
+  }
+
+  @media screen and (max-width: 1600px) {
+    .paymentInfoContainer {
+      width: 30%;
+    }
+    .erningInfoContainer {
+      width: 70%;
+    }
+  }
+  

@@ -1,0 +1,160 @@
+/* main container */
+.cntr_main {
+  padding: 0 160px;
+}
+/* main container */
+.wrapper_profesy {
+  padding: 6rem 0 2rem;
+}
+.wrapper_profesy .banner_profesy {
+  padding: 0 3rem 3rem;
+}
+.wrapper_profesy .banner_profesy h2 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #23262f;
+}
+
+.verifyEmailMsg {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777e91;
+}
+
+.wrapper_profesy .banner_profesy .profesy_status {
+  margin-top: 3rem;
+}
+
+.wrapper_profesy .banner_profesy .profesy_status img {
+  width: 100%;
+}
+.wrapper_profesy .banner_profesy .profesy_status h3 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #23262f;
+}
+
+.wrapper_profesy .banner_profesy .profesy_status .actionBtn {
+  padding: 12px 16px;
+  gap: 12px;
+  border: 2px solid #e6e8ec;
+  border-radius: 90px;
+  background-color: transparent;
+  font-family: "Nexa-Bold";
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  text-align: center;
+  color: #23262f;
+}
+
+.cancelSubsWrapper {
+  padding: 1rem;
+}
+
+.secondarybuttonContainer {
+  background: white !important;
+  font-size: 18px !important;
+  font-family: "Nexa-Bold" !important;
+  outline: none !important;
+  color: black !important;
+  box-shadow: none !important;
+  border: 1px solid black !important;
+}
+
+.modalText {
+  font-family: "Nexa-Bold";
+  padding: 0 0 2rem 0;
+  font-size: 18px;
+}
+
+.buttonContainer {
+  background: black !important;
+  font-size: 18px !important;
+  font-family: "Nexa-Bold" !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.wrapper_profesy .banner_profesy .profesy_status .subscribe_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.wrapper_profesy .banner_profesy .profesy_status .subscribe_section p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  color: #000000;
+}
+.wrapper_profesy .banner_profesy .profesy_status .subscribe_section span {
+  /* Caption 2 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  /* Neutrals/4 */
+
+  color: #777e91;
+}
+
+@media (max-width: 575.98px) {
+  .wrapper_profesy .banner_profesy {
+    padding: 0;
+  }
+  .cntr_main {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .wrapper_profesy .banner_profesy {
+    padding: 0;
+  }
+  .cntr_main {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .wrapper_profesy .banner_profesy {
+    padding: 0;
+  }
+  .cntr_main {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .cntr_main {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .cntr_main {
+    padding: 0 30px;
+  }
+}

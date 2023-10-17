@@ -1,0 +1,389 @@
+.appointmentInnerC {
+  padding: 30px 70px 10px 160px;
+}
+
+.appointmentInnerC > h2 {
+  color: #2a2627;
+  font-size: 24px;
+  font-size: 400;
+}
+
+.cardContainer {
+  margin: 15px 0px;
+}
+
+.historyHeading > h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.optionBtn {
+  font-size: 14px;
+  font-family: "DM Sans";
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 20px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.optionBtn2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  height: fit-content;
+  background-color: #23262f;
+  border-radius: 24px;
+}
+
+.historyHeading > button {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 2px solid #e5e6eb;
+  padding: 5px 20px;
+  font-size: 12px;
+  font-family: "Nexa-Bold";
+}
+.sec {
+  margin: 0 auto;
+}
+.sec1 {
+  width: 288px;
+  /* width: 100%; */
+}
+.sec1 h6 {
+  font-family: "nexa-Bold";
+}
+
+.textC {
+  width: 142px;
+}
+
+.detailsContainer {
+  margin: 20px 0px;
+}
+
+.detailsW {
+  padding: 26px 0px 22px 0px;
+}
+
+.detailsC {
+  margin-top: 5px;
+}
+
+.detailsWf > div > h6 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Nexa-Bold";
+  margin: 0;
+}
+
+.ASpan {
+  font-size: 13px;
+  color: #6c727f;
+}
+
+.spanIcon {
+  position: relative;
+  bottom: 3px;
+}
+
+.textC > h6 {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Nexa-Bold";
+  margin-top: 5px;
+}
+
+.cardBody h6 {
+  font-size: 18px;
+  color: white;
+}
+
+.cardBody p {
+  color: #9ea3ae;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Nexa-Bold";
+  margin: 0;
+}
+
+.cardBody a {
+  color: #bbf246;
+  font-size: 12px;
+}
+
+.reminderCard {
+  padding: 5px 20px;
+  background-color: #2a2627;
+  flex-direction: row;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+}
+
+.rightAppointmentWrapper {
+  border-left: 1px solid #e5e6eb;
+  width: 360px;
+}
+
+.reminderCardSec {
+  padding: 40px;
+  border-bottom: 1px solid #e5e6eb;
+}
+
+.reminderIcon {
+  height: 64px;
+  width: 64px;
+}
+
+.todaysApp {
+  padding: 3px 25px 25px;
+  position: relative;
+}
+
+.todaysApp h6 {
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+}
+
+.appCardContainer {
+  border-radius: 24px !important;
+  box-shadow: 0px 40px 32px -24px #0f0f0f1f;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.imageContainer img {
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  object-fit: cover;
+}
+
+.todayBtn {
+  background-color: #58c27d;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-size: 12px;
+  font-family: "DM Sans";
+  padding: 5px 8px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  cursor: default !important;
+}
+
+.joinBtn {
+  background-color: #3b71fe;
+  color: white;
+  border-radius: 90px;
+  border: none;
+  font-size: 16px;
+  font-family: "DM Sans";
+  padding: 10px 24px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.appInfo p {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.appInfo button {
+  color: #58c27d;
+  border-radius: 4px;
+  border: 2px solid #58c27d;
+  height: 100%;
+  margin-left: 11px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Poppins";
+  background-color: transparent;
+  cursor: default;
+}
+
+.appType {
+  font-size: 12px;
+  font-family: "Poppins";
+  color: #777e90;
+  font-weight: 400;
+  margin: 0;
+}
+
+.appFooter > div > h6 {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Poppins";
+  margin: 0;
+}
+
+.BGColour {
+  background-color: #fcfcfd;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.optionIcon {
+  align-items: center;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 913px) {
+  .reminderCard {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .joinBtn {
+    padding: 5px 20px;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .appointmentInnerC {
+    padding: 30px 30px 10px 30px;
+  }
+}
+
+@media screen and (max-width: 1173px) and (min-width: 575px) {
+  .appInfo p {
+    font-size: 0.7rem;
+  }
+
+  .appInfo button {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .cardContainer {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .appointmentInnerC > h2 {
+    text-align: center;
+  }
+
+  .AHSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 7px;
+  }
+}
+
+@media screen and (max-width: 717px) and (min-width: 575px) {
+  .appointmentInnerC > h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .detailsW {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .optionIcon {
+    align-items: flex-start;
+  }
+
+  .historyHeading {
+    flex-direction: column;
+  }
+
+  .historyHeading button {
+    font-size: 10px;
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  .AHSection {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sec1 {
+    width: 100%;
+  }
+
+  .textC {
+    width: 70px;
+  }
+
+  .detailsContainer {
+    width: 100%;
+  }
+  .sec {
+    margin: 0;
+  }
+  .appInfo p {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .appointmentInnerC h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .reminderCardSec {
+    padding: 10px 40px 40px 40px;
+  }
+}
+/* 
+.slider_main_wrp{
+  height: 100px !important;
+} */
+.AppImg {
+  width: 100%;
+  height: 250px;
+}
+
+.nodata {
+  font-size: 4rem;
+  font-family: "Nexa-Bold";
+  margin-top: 100px;
+  text-align: center;
+  color: #777e9047;
+}
+
+.noChatHistorytext {
+  font-size: 16px;
+  /* position: absolute; */
+  /* left: 38%;
+  top: 68%; */
+  color: lightgray;
+  text-align: center;
+  /* display: flex;
+  text-align: center;*/
+  font-family: "Nexa-Bold";
+  margin-top: 1rem;
+}
+
+.noChatHistory {
+  height: 100%;
+  margin-top: 5rem;
+}

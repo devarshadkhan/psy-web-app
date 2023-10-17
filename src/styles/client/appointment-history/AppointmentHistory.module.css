@@ -1,0 +1,137 @@
+.appointmentHistory {
+    padding: 30px 70px 10px 160px;
+    width: 40%;
+}
+
+.appointmentHistory>div>h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.appointmentHistory span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4D5461;
+    font-family: 'Nexa-Bold';
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.appointmentHistoryRight {
+    width: 60%;
+}
+
+.appointmentRS {
+    padding: 90px 80px 20px 10px;
+}
+
+.nodata {
+    font-size: 4rem;
+    font-family: 'Nexa-Bold';
+    /* margin-top: 100px; */
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    color: #777e9047;
+    
+    position: absolute;
+    left: 32rem;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+
+}
+
+@media screen and (min-width: 3200px) {
+    .appointmentHistory {
+        width: 20%;
+    }
+
+    .appointmentHistoryRight {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 2256px) and (max-width: 3200px) {
+    .appointmentHistory {
+        width: 25%;
+    }
+
+    .appointmentHistoryRight {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+    .appointmentHistory {
+        width: 44%;
+    }
+
+    .appointmentHistoryRight {
+        width: 56%;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .appointmentHistory {
+        padding: 30px 30px 10px 30px;
+    }
+
+    .appointmentRS {
+        padding: 50px 30px 10px 30px;
+    }
+
+    .MWContainer {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .appointmentHistory {
+        width: 100%;
+    }
+
+    .appointmentHistoryRight {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .mobileCenter {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .appointmentWrapper {
+        flex-direction: column;
+    }
+
+    .MWContainer {
+        max-width: 100%;
+    }
+
+    .AHMainCont {
+        display: block !important;
+    }
+
+    .nodata {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .appBox>h6 {
+        font-size: 17px;
+    }
+
+    .greyText {
+        font-size: 12px;
+    }
+}
+
+
+.NoMsgCss{
+    position: relative;
+    left: 18rem;
+    top: 14rem;
+}

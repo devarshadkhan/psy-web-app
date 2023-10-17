@@ -1,0 +1,205 @@
+.appointmentWrapper {
+  border: 1px solid #e5e6eb;
+  border-radius: 8px;
+  padding: 20px 25px;
+  background: white;
+  position: relative;
+  margin-bottom: 1rem;
+  margin-top: 10px;
+}
+
+.optionBoxpsychic {
+  background-color: #fcfcfd;
+  border-radius: 20px;
+  width: 292px;
+  height: 40px;
+  padding: 16px 28px;
+  position: absolute;
+  right: 0px;
+  top: 35px;
+  z-index: 9;
+  box-shadow: rgba(137, 136, 136, 0.426) 0px 25px 20px -20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.appName {
+  font-family: "Nexa-Bold";
+  font-size: 16px;
+  margin: 0;
+}
+
+.greyText {
+  font-size: 14px;
+  color: #6c727f;
+  text-transform: capitalize;
+}
+
+.image {
+  height: 55px;
+  width: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.MWContainer {
+  max-width: 100%;
+}
+
+.appInfoContainer {
+  max-width: 100%;
+}
+
+.appReason {
+  font-family: "Nexa-Bold";
+  font-size: 18px;
+}
+
+.appointmentReason {
+  color: #6c727f;
+  font-size: 14px;
+}
+
+.appBox > h6 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.appBox > p {
+  font-size: 14px;
+  color: #9ea3ae;
+  font-weight: 400;
+}
+
+.optionBox {
+  background-color: #fcfcfd;
+  border-radius: 20px;
+  width: 292px;
+  height: 60px;
+  padding: 16px 28px;
+  position: absolute;
+  right: 0px;
+  bottom: 80px;
+  z-index: 9;
+  box-shadow: rgba(137, 136, 136, 0.426) 0px 25px 20px -20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.optionBtn {
+  font-size: 14px;
+  font-family: "DM Sans";
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 20px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.optionBtn2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  height: fit-content;
+  background-color: #23262f;
+  border-radius: 24px;
+}
+.optionBtn1 {
+  background-color: transparent;
+}
+
+
+.menu {
+  cursor: pointer;
+  height: fit-content;
+}
+
+.boxIcon {
+  font-size: 26px;
+  color: #777e90;
+}
+
+.meeting_complete {
+  color: green;
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+}
+
+.meeting_canceled {
+  color: red;
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+}
+
+@media screen and (min-width: 3200px) {
+  .appointmentHistoryRight {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 2256px) and (max-width: 3200px) {
+  .appointmentHistoryRight {
+    width: 75%;
+  }
+
+  .MWContainer {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+  .appointmentHistoryRight {
+    width: 56%;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .appointmentRS {
+    padding: 50px 30px 10px 30px;
+  }
+
+  .MWContainer {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 960px) and (min-width: 812px) {
+  .listBtn {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .appointmentHistoryRight {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .appointmentWrapper {
+    flex-direction: column;
+  }
+
+  .MWContainer {
+    max-width: 100%;
+  }
+
+  .AHMainCont {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .appBox > h6 {
+    font-size: 17px;
+  }
+
+  .greyText {
+    font-size: 12px;
+  }
+}

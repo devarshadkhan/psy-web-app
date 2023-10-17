@@ -1,0 +1,677 @@
+/* main container */
+.cntr_main {
+  padding: 0 160px;
+}
+
+/* main container */
+/* edit profile sidebar css only sidebar */
+.edit_profile {
+  padding: 6rem 0 2rem;
+}
+
+.toggle_button_cover {
+  display: table-cell;
+  position: relative;
+  bottom: 18px; 
+}
+
+.statusText {
+  font-family: "Nexa-Bold";
+  margin-right: 10px;
+}
+
+.button_cover {
+  /* height: 100px;
+  margin: 20px; */
+  background-color: #fff;
+  box-shadow: 0 10px 20px -8px #c5d6d6;
+  border-radius: 4px;
+}
+
+/* .button_cover:before {
+  counter-increment: button-counter;
+  content: counter(button-counter);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #d7e3e3;
+  font-size: 12px;
+  line-height: 1;
+  padding: 5px;
+} */
+
+.button_cover,
+.knobs,
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.button {
+  position: relative;
+  /* top: 50%; */
+  width: 74px;
+  height: 36px;
+  /* margin: -20px auto 0 auto; */
+  overflow: hidden;
+}
+
+.button.r,
+.button.r .layer {
+  border-radius: 100px;
+}
+
+.button.b2 {
+  border-radius: 2px;
+}
+
+.checkbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.knobs {
+  z-index: 2;
+}
+
+.layer {
+  width: 100%;
+  background-color: #e6e8ec;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+#button_1 .knobsDisabled:before {
+  background-color: #99b1ef !important;
+}
+
+#button_1 .knobs:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #3b71fe;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  padding: 9px 4px;
+  /* background-color: #03a9f4; */
+  border-radius: 50%;
+  transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button_1 .checkbox:checked + .knobs:before {
+  content: "";
+  left: 42px;
+  background-color: #e6e8ec;
+}
+
+.statusWrapper {
+  align-items: center;
+}
+
+#button_1 .checkbox:checked ~ .layer {
+  background-color: #3b71fe;
+}
+
+#button_1 .knobs,
+#button_1 .knobs:before,
+#button_1 .layer {
+  transition: 0.3s ease all;
+}
+
+.botttom_Image {
+  margin: 3rem 0 0 !important;
+}
+
+.edit_sidebar {
+  background: #fcfcfd;
+  border: 1px solid #f4f5f6;
+  box-shadow: 0px 64px 64px 17px rgba(15, 15, 15, 0.08);
+  border-radius: 16px;
+  padding: 48px 32px;
+}
+
+.edit_sidebar .edit_profile_name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 2rem;
+  text-decoration: none;
+}
+
+.active {
+  color: #000 !important;
+}
+
+.edit_sidebar .edit_profile_name p {
+  margin: 0;
+  color: #777e91;
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* main edit profile css page */
+
+.edititing_profile {
+  padding: 0 3rem 3rem;
+}
+
+.edititing_profile .edit_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.edititing_profile .edit_name h2 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #23262f;
+}
+
+.edititing_profile .edit_name button {
+  font-family: "Nexa-Bold";
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 90px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262f;
+  background-color: transparent;
+}
+
+.edititing_profile .account_info {
+  margin-top: 4rem;
+}
+
+.edititing_profile .account_info2 {
+  margin-top: 2rem;
+}
+
+.edititing_profile .account_info1 {
+  margin-top: 1rem;
+}
+
+.edititing_profile .account_info img {
+  width: 100%;
+}
+
+.edititing_profile .account_info h6 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+  margin-bottom: 1rem;
+}
+
+.edititing_profile .account_info .display_name {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.edititing_profile .account_info .display_name p {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #b1b5c4;
+}
+
+.edititing_profile .account_info .display_name input {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262f;
+}
+
+.edititing_profile .account_info .display_name input:focus {
+  box-shadow: none;
+  border-color: none !important;
+}
+
+.edititing_profile .account_info .display_name textarea:focus {
+  box-shadow: none;
+  border-color: none !important;
+}
+
+.edititing_profile .account_info .display_name textarea {
+  padding: 20px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+  height: 180px;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262f;
+  resize: none;
+}
+
+.edititing_profile .account_info .display_name select {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262f;
+}
+
+.edititing_profile .account_info .display_name select span {
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #b1b5c4;
+}
+
+.edititing_profile .account_info .display_name select:focus {
+  box-shadow: none !important;
+}
+
+.edititing_profile .account_info .display_name .twitter_verify {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: 2px solid #e6e8ec;
+  border-radius: 12px;
+}
+
+.edititing_profile .account_info .display_name .twitter_verify input {
+  border: none;
+  padding: 0;
+  width: 50%;
+  font-family: "Nexa-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.edititing_profile .account_info .display_name .twitter_verify input:focus {
+  border: none;
+}
+
+.edititing_profile .account_info .display_name .twitter_verify button {
+  /* padding: 8px 8px 8px 12px; */
+  padding: 4px 8px;
+  background-color: transparent;
+  border: 2px solid #e6e8ec;
+  border-radius: 90px;
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262f;
+}
+
+.edititing_profile .account_info .submit_btn {
+  display: flex;
+  gap: 3.3rem;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+
+.edititing_profile .account_info .submit_btn button {
+  padding: 16px 24px;
+  background: #3b71fe;
+  border-radius: 90px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  border: transparent;
+  color: #fcfcfd;
+}
+
+.edititing_profile .account_info .submit_btn p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #777e91;
+  margin: 0;
+  width: 150px;
+}
+
+.edititing_profile .account_info .submit_btn p img {
+  width: 10%;
+  margin-right: 15px;
+}
+
+/* set profile picture */
+.ProfileImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profileContainer {
+  height: 100px;
+  width: 100px;
+  margin-top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid #2c3542;
+}
+
+.image_banner {
+  margin-top: 5rem;
+}
+
+.image_banner h2 {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+}
+
+.image_banner .image_picker {
+  margin-top: 80px;
+  display: flex;
+}
+
+.image_banner .image_picker p {
+  font-family: "Nexa-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #b1b5c4;
+}
+
+.image_upload {
+  display: flex;
+  width: 50%;
+  align-items: flex-end;
+}
+
+.pickerProfileDrop {
+  height: 100%;
+  width: 100% !important;
+  margin-left: auto;
+}
+
+.image_upload > input {
+  display: none;
+}
+
+.image_upload > label {
+  display: inline-flex;
+}
+
+.picker_width {
+  width: 30%;
+}
+
+.image_sizer {
+  width: 99px !important;
+  height: 99px;
+  border: 7px solid #2c3542;
+  border-radius: 50%;
+  /* width: 70% !important; */
+}
+
+.image_banner .image_picker img {
+  width: 40%;
+}
+
+/* image drag and drop */
+
+.imgContainer > span {
+  font-family: "Nexa-Bold";
+  font-size: 12px;
+  color: #b1b5c3;
+}
+
+.dropBox {
+  width: 35%;
+  background-color: white;
+}
+
+.dropDown {
+  padding: 29px 31px 35px 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dotted {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='12' ry='12' stroke='%23718096' stroke-width='2' stroke-dasharray='6%2c 10' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 12px;
+  border-image: repeating-linear-gradient(
+    0deg,
+    #718096,
+    #718096 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+.dropDown > div {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.dropDown > div > p {
+  font-size: 14px;
+  color: #718096;
+  font-family: "Nexa-Bold";
+}
+
+.dropDown > div > p > span {
+  color: #0caf60;
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+}
+
+@media (max-width: 575.98px) {
+  .edit_sidebar {
+    display: none;
+  }
+
+  .edititing_profile .edit_name h2 {
+    font-size: 20px;
+  }
+
+  .picker_width {
+    width: 100%;
+  }
+
+  .image_banner .image_picker img {
+    width: 60%;
+  }
+
+  .image_banner {
+    margin-top: 2rem;
+  }
+
+  .image_banner .image_picker {
+    margin-top: 3rem;
+    display: flex;
+  }
+
+  .image_banner .image_picker {
+    gap: 2rem;
+  }
+
+  .edititing_profile .account_info .submit_btn {
+    gap: 2rem;
+  }
+
+  .edititing_profile .account_info .submit_btn button {
+    padding: 16px 17px;
+    background: #3b71fe;
+    border-radius: 90px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    border: transparent;
+    color: #fcfcfd;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .edit_sidebar {
+    display: none;
+  }
+
+  .edititing_profile .edit_name h2 {
+    font-size: 20px;
+    flex-wrap: initial;
+  }
+
+  .picker_width {
+    width: 50%;
+  }
+
+  .image_banner .image_picker img {
+    width: 40%;
+  }
+
+  .image_banner {
+    margin-top: 2rem;
+  }
+
+  .image_banner .image_picker {
+    margin-top: 3rem;
+    display: flex;
+  }
+
+  .image_banner .image_picker {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .edit_sidebar {
+    display: none;
+  }
+
+  .cntr_main {
+    padding: 0 30px;
+  }
+
+  .edit_profile {
+    padding: 3rem 0 2rem;
+  }
+
+  .edititing_profile {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .cntr_main {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .cntr_main {
+    padding: 0 30px;
+  }
+
+  .image_sizer {
+    border-radius: 50%;
+    width: 70%;
+  }
+}
+
+.invalid,
+.invalid:focus {
+  border: 1px solid red !important;
+  color: red !important;
+}
+
+.invalid > .floatingLabel,
+.invalid:focus > .floatingLabel {
+  color: red !important;
+}
+
+/* 
+   .RBorder{
+    border: none !important;
+   }
+  
+   .invalid,
+  .invalid:focus {
+    border: 2px solid red !important;
+    border-radius: 12px !important;
+    color: red !important;
+  }
+  
+  .invalid > .floatingLabel,
+  .invalid:focus > .floatingLabel {
+    color: red !important;
+  } */
+
+@media screen and (max-width: 540px) and (min-width: 320px) {
+  .dropzoneSection {
+    flex-direction: column;
+  }
+
+  .dropzoneSection > div {
+    width: 100%;
+  }
+
+  .dropDown {
+    padding: 18px;
+  }
+}

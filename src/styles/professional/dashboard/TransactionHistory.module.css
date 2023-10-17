@@ -1,0 +1,225 @@
+.bodyContainer {
+  height: calc(100vh - 90px);
+  background: linear-gradient(to top, #fff 0%, #fff 60%, #1c2634 40%);
+  padding-left: 63px;
+}
+
+.dataTableContainer {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchInput {
+  background-color: transparent;
+  border: none;
+  width: 80%;
+  color: white;
+  font-family: "Nexa-bold";
+  font-size: 14px;
+  margin-left: 18px;
+  outline: none;
+}
+
+.searchInputWrapper {
+  background-color: rgba(255, 255, 255, 0.07);
+  padding: 12px;
+  width: 300px;
+  border-radius: 100px;
+  /* width: ; */
+  border: 1px solid #dce4e8;
+}
+
+.labelStyle {
+  font-family: "Nexa-Bold";
+  font-size: 16px;
+}
+
+.filterContainer {
+  display: flex;
+  align-items: center;
+  padding: 12px 18px;
+  width: fit-content;
+  gap: 16px;
+  margin-left: auto;
+  margin-right: 24px;
+  background-color: #edf1f3;
+}
+.exportContainer {
+  padding: 12px 18px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #fff;
+}
+.optionsWrapper {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.navSearchIcon {
+  color: black;
+  font-size: 24px;
+}
+
+.rightSectionContainer {
+  display: flex;
+  margin-left: auto;
+}
+
+.CustomDatePickerInput {
+  background: #fff;
+  width: fit-content;
+  padding: 6px 18px;
+  gap: 16px;
+  width: 100%;
+  padding: 12px 18px !important;
+  display: flex;
+  border: 1px solid #dce4e8 !important;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.customSelect {
+  border-radius: 100px;
+  box-shadow: none !important;
+  border: none !important;
+  color: #acb5bb !important;
+  outline: none !important;
+  padding: 12px 18px !important;
+  border: 1px solid #dce4e8 !important;
+  background-image: url("/images/selctordrop.svg");
+}
+
+.filterOptions {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.filterWraapper {
+  width: 100%;
+}
+
+.CustomDatePickerInputIcon {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+}
+
+.CustomDatePickerInputText {
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+}
+
+.paginationprev > a,
+.paginationnext > a {
+  border: none !important;
+}
+
+.paginationData > a {
+  border: none !important;
+  font-family: "Nexa-Bold";
+  font-size: 14px;
+  color: black;
+  width: 40px;
+  height: 40px;
+  margin-left: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginationnext > a {
+  margin-left: 16px !important;
+}
+
+.divider {
+  padding: 15px 0;
+}
+
+.paginationprev > a {
+  margin-right: 16px;
+}
+
+.paginationnext > a,
+.paginationprev > a {
+  border-radius: 8px;
+  border: 1px solid #dce4e8 !important;
+}
+
+.dropWrapper {
+  display: flex;
+  gap: 24px;
+  width: 50%;
+}
+
+.footerLeftContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.limitText {
+  font-family: "Nexa-Bold";
+  font-size: 14px;
+  color: #1a1c1e;
+}
+
+.limitSelector {
+  border: 1px solid #dce4e8;
+  box-shadow: none !important;
+  outline: none;
+  font-family: "Nexa-Bold";
+  font-size: 16px;
+  color: #1a1c1e;
+}
+
+.limitSelector:focus {
+  border: 1px solid #dce4e8;
+}
+
+@media screen and (max-width: 1024px) {
+  .bodyContainer {
+    padding-left: 0px;
+  }
+  .dropWrapper {
+    flex-direction: column;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footerContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .filterOptions {
+    flex-direction: column;
+  }
+  .optionsWrapper {
+    flex-direction: column;
+  }
+  .searchInputWrapper {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .dropWrapper {
+    width: 100% !important;
+  }
+  .rightSectionContainer {
+    margin-left: 0;
+    width: 100%;
+  }
+  .filterContainer,
+  .exportContainer {
+    width: 50%;
+  }
+}

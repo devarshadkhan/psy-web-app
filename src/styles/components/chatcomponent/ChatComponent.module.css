@@ -1,0 +1,58 @@
+.sender {
+  justify-content: end;
+  margin: 8px 0px 27px 0px;
+}
+
+.reciever {
+  margin: 8px 0px 27px 0px;
+}
+
+.message {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nexa-Light";
+  padding: 12px;
+  word-break: break-all;
+}
+
+.sendermsg {
+  word-break: break-all;
+  background-color: #217efd;
+  color: white;
+  text-align: right;
+  border-radius: 22px 0px 22px 22px;
+}
+
+.recievermsg {
+  word-break: break-all;
+  background-color: #f3f4f9;
+  border-radius: 0px 22px 22px 22px;
+}
+
+.name {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Nexa-Bold";
+}
+
+.time {
+  color: #8083a3;
+  font-family: "Nexa-Light";
+  font-size: 12px;
+  margin: 0;
+  text-align: end;
+}
+.time1 {
+  color: #8083a3;
+  font-family: "Nexa-Light";
+  font-size: 12px;
+  margin: 0;
+  text-align: left;
+}
+
+.profilepic {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+}

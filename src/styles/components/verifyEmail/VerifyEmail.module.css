@@ -1,0 +1,20 @@
+.verifyEmail{
+    padding: 8px;
+    text-align: center;
+    background-color:#FFF3CD;
+    color: #000;
+   
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.verifyEmail p{
+margin: 0;
+font-weight: 600 !important;
+}
+.verifyEmail button{
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+    border: none;
+}

@@ -1,0 +1,85 @@
+.bodycontainer {
+  height: 100vh;
+  padding: 5px 0px 0px 124px;
+}
+
+.leftContainer {
+  width: 37%;
+}
+
+.leftContainer > div {
+  padding: 14px 0px;
+}
+
+.leftContainer > div > h3 {
+  font-size: 20px;
+  font-family: "Nexa-Bold";
+  margin: 10px 0px 30px 0px;
+}
+
+.line {
+  background-color: #eceef5;
+}
+
+.startMeet {
+  padding: 95px 30px 5px 30px;
+  max-width: 90%;
+}
+
+.startMeet > h1 {
+  font-size: 32px;
+  font-family: "Nexa-Bold";
+}
+
+.para1 {
+  font-size: 18px;
+  font-family: "Nexa-Bold";
+}
+
+.para2 {
+  color: #8083a3;
+  font-size: 14px;
+  font-family: "Nexa-Light";
+}
+
+.details > div > span:nth-child(1) {
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+}
+
+.details > div > span:nth-child(2) {
+  font-size: 16px;
+  font-family: "Nexa-Light";
+}
+
+.startMeet > button {
+  border: 1px solid #e6e8ec;
+  border-radius: 90px;
+  padding: 16px 24px;
+  font-family: "Nexa-Bold";
+  font-size: 16px;
+  background-color: white;
+}
+
+.rightContainer {
+  background-color: #c4c4c4;
+  width: 63%;
+}
+
+@media screen and (max-width: 1200px) {
+  .bodycontainer {
+    flex-direction: column-reverse;
+    padding: 20px;
+    height: 100%;
+  }
+  .leftContainer {
+    width: 100%;
+  }
+  .rightContainer {
+    width: 100%;
+    height: 50vh;
+  }
+  .startMeet {
+    padding: 0;
+  }
+}

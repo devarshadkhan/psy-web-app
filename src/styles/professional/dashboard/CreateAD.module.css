@@ -1,0 +1,5 @@
+.bodyContainer {
+    height: calc(100vh - 90px);
+    background: linear-gradient(to top, #fff 0%, #fff 60%, #1c2634 40%);
+    padding-left: 63px;
+  }

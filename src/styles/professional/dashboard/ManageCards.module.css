@@ -1,0 +1,229 @@
+.bodyContainer {
+  height: calc(100vh - 90px);
+  background: linear-gradient(to top, #fff 0%, #fff 60%, #1c2634 40%);
+  padding-left: 63px;
+}
+
+.cardscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 31px;
+  gap: 23px;
+  padding: 0 86px;
+}
+
+.profesyContainer {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  width: fit-content;
+}
+
+.secondarybtn {
+  background-color: #217efd;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.toggleBtn:active,
+.toggleBtn:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e") !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.toggleBtn {
+  height: 22px !important;
+  width: 35px !important;
+  /* background-color: #fff; */
+}
+
+.toggleBtn:checked {
+  background-color: #fff;
+  border: 1.5px solid #34b67f !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2334b67f'/%3e%3c/svg%3e") !important;
+  border-color: #34b67f;
+  border-width: 1.5px !important;
+}
+
+.checkboxLabel {
+  color: #6c7278;
+  font-size: 14px;
+  font-family: "Nexa-Bold";
+}
+
+.checkboxLabel {
+  margin-left: 10px;
+  position: relative;
+  top: 3px;
+}
+
+.tbtitleContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.tbtitle {
+  font-family: "Nexa-Bold";
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.tbtitleIcon {
+  width: 15px;
+  margin-left: 7.5px;
+  color: #6c7278;
+  height: 15px;
+}
+
+.manageProfesy {
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #dce4e8;
+  border-radius: 55px;
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+}
+
+.addANewAccountButton {
+  padding: 12px 24px;
+  border-radius: 55px;
+  font-size: 16px;
+  font-family: "Nexa-Bold";
+  background: #fff;
+  width: fit-content;
+  position: absolute;
+  right: 3%;
+  top: 8rem;
+}
+
+.newCardPopup {
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.closeBtn {
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardHeader > p {
+  color: #6C7278;
+  font-size: 14px;
+}
+
+.formlabel {
+  font-size: 12px;
+  color: #ACB5BB;
+  font-family: 'Nexa-Bold';
+}
+
+.formInput {
+  padding: 20px 24px;
+  border-radius: 16px;
+  border: 1px solid #DCE4E8;
+  font-size: 14px;
+  font-family: 'Nexa-Bold';
+  color: #1A1C1E;
+}
+
+.formInput:focus {
+  box-shadow: none;
+  border-color: #DCE4E8;
+}
+
+.fieldContainer > div {
+  width: 50%;
+}
+
+.addBtn {
+  background-color: black; 
+  width: 100%;
+  border-radius: 55px;
+  padding: 12px 24px;
+  border: none;
+  color: white;
+  font-family: 'Nexa-Bold';
+}
+
+.formDate {
+  padding: 20px 24px;
+  border-radius: 16px;
+  border: 1px solid #DCE4E8;
+  font-size: 14px;
+  font-family: 'Nexa-Bold';
+  color: #1A1C1E;
+  position: relative;
+}
+
+.calendarIcon {
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+}
+
+.cardOpacity {
+  opacity: 0.5;
+}
+
+.hideInput {
+  border: none;
+  outline: none;
+}
+
+.cvcIcon {
+  position: absolute;
+  right: 5px;
+}
+
+@media screen and (max-width: 540px) and (min-width: 230px) {
+  .fieldContainer {
+    flex-direction: column;
+    gap: 0rem !important;
+  }
+
+  .fieldContainer > div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bodyContainer {
+    padding: 0;
+  }
+
+  .addANewAccountButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border: 1px solid #E6E8EC;
+  }
+  .profesyContainer {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardscontainer {
+    padding: 0px 25px;
+  }
+}
